@@ -1,0 +1,7002 @@
+[
+  {
+    "id": 1,
+    "name": "VX_ViperSquad",
+    "withdrawal": 1000,
+    "kills": 16,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 2,
+    "name": "KronoX_99",
+    "withdrawal": 1200,
+    "kills": 11,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 3,
+    "name": "AlphaStrike_4v4",
+    "withdrawal": 900,
+    "kills": 14,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 4,
+    "name": "Ghost_Flick",
+    "withdrawal": 400,
+    "kills": 8,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 5,
+    "name": "TL_Striker_Zone",
+    "withdrawal": 500,
+    "kills": 16,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 6,
+    "name": "TL_QuickScope_Boss",
+    "withdrawal": 300,
+    "kills": 13,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 7,
+    "name": "RAID_Venom",
+    "withdrawal": 4000,
+    "kills": 21,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 8,
+    "name": "Apex_559",
+    "withdrawal": 1400,
+    "kills": 17,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 9,
+    "name": "WLR_Stalker",
+    "withdrawal": 200,
+    "kills": 22,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 10,
+    "name": "FNTC_Ninja_Fire",
+    "withdrawal": 200,
+    "kills": 9,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 11,
+    "name": "LNX_Rusher",
+    "withdrawal": 1400,
+    "kills": 14,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 12,
+    "name": "EVOS_Frost_Headshot",
+    "withdrawal": 900,
+    "kills": 11,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 13,
+    "name": "100T_Headshot_9",
+    "withdrawal": 600,
+    "kills": 6,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 14,
+    "name": "SOUL_Assassin",
+    "withdrawal": 2200,
+    "kills": 13,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 15,
+    "name": "VX_DarkKnight",
+    "withdrawal": 800,
+    "kills": 19,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 16,
+    "name": "Blaze_Ultra",
+    "withdrawal": 750,
+    "kills": 15,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 17,
+    "name": "VX_Eclipse_Elite",
+    "withdrawal": 2500,
+    "kills": 19,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 18,
+    "name": "C9_Stalker",
+    "withdrawal": 4000,
+    "kills": 20,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 19,
+    "name": "DRX_Airdrop",
+    "withdrawal": 1500,
+    "kills": 9,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 20,
+    "name": "LNX_RedDot",
+    "withdrawal": 800,
+    "kills": 7,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 21,
+    "name": "StormBreaker_608",
+    "withdrawal": 400,
+    "kills": 22,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 22,
+    "name": "Havoc_13",
+    "withdrawal": 900,
+    "kills": 18,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 23,
+    "name": "VFX_Striker",
+    "withdrawal": 300,
+    "kills": 15,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 24,
+    "name": "Specter_Elite",
+    "withdrawal": 1200,
+    "kills": 6,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 25,
+    "name": "FALCON_Knight_007",
+    "withdrawal": 3000,
+    "kills": 18,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 26,
+    "name": "FNC_Overlord_Ultra",
+    "withdrawal": 1200,
+    "kills": 8,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 27,
+    "name": "APEX_Flick",
+    "withdrawal": 400,
+    "kills": 23,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 28,
+    "name": "Stalker_V2",
+    "withdrawal": 400,
+    "kills": 21,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 29,
+    "name": "APEX_Phoenix",
+    "withdrawal": 1000,
+    "kills": 22,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 30,
+    "name": "RRQ_Ronin",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 31,
+    "name": "Reflex_OP",
+    "withdrawal": 5000,
+    "kills": 8,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 32,
+    "name": "RRQ_QuickScope_07",
+    "withdrawal": 4000,
+    "kills": 7,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 33,
+    "name": "VFX_Blaze",
+    "withdrawal": 1200,
+    "kills": 14,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 34,
+    "name": "Immortal_King",
+    "withdrawal": 1000,
+    "kills": 8,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 35,
+    "name": "TSM_Drop",
+    "withdrawal": 1100,
+    "kills": 22,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 36,
+    "name": "ZETA_Beast",
+    "withdrawal": 1500,
+    "kills": 9,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 37,
+    "name": "HYDRA_Rusher_One",
+    "withdrawal": 1500,
+    "kills": 7,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 38,
+    "name": "Mp40King_983",
+    "withdrawal": 1100,
+    "kills": 16,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 39,
+    "name": "TSM_Dynamo",
+    "withdrawal": 1600,
+    "kills": 22,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 40,
+    "name": "APEX_RedDot_Prime",
+    "withdrawal": 3500,
+    "kills": 6,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 41,
+    "name": "BLCK_Ranger_Live",
+    "withdrawal": 3500,
+    "kills": 13,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 42,
+    "name": "RX_Pulse_9",
+    "withdrawal": 400,
+    "kills": 22,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 43,
+    "name": "Zone_9",
+    "withdrawal": 1300,
+    "kills": 6,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 44,
+    "name": "FireLord_Pro",
+    "withdrawal": 1400,
+    "kills": 16,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 45,
+    "name": "WLR_Rusher_4v4",
+    "withdrawal": 700,
+    "kills": 7,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 46,
+    "name": "Echo_55",
+    "withdrawal": 800,
+    "kills": 20,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 47,
+    "name": "Krono_271",
+    "withdrawal": 3000,
+    "kills": 5,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 48,
+    "name": "Slayer_9",
+    "withdrawal": 2200,
+    "kills": 6,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 49,
+    "name": "Cobra_Headshot",
+    "withdrawal": 1500,
+    "kills": 15,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 50,
+    "name": "NOVA_Lightning_13",
+    "withdrawal": 500,
+    "kills": 23,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 51,
+    "name": "DRX_Airdrop_OP",
+    "withdrawal": 2000,
+    "kills": 23,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 52,
+    "name": "VoltShock_820",
+    "withdrawal": 800,
+    "kills": 22,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 53,
+    "name": "VALOR_Raven",
+    "withdrawal": 900,
+    "kills": 16,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 54,
+    "name": "TSM_Venom_GG",
+    "withdrawal": 1100,
+    "kills": 13,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 55,
+    "name": "Sniper_Zero",
+    "withdrawal": 700,
+    "kills": 8,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 56,
+    "name": "FALCON_Shadow_Top",
+    "withdrawal": 1500,
+    "kills": 12,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 57,
+    "name": "BLCK_RedDot_V2",
+    "withdrawal": 3000,
+    "kills": 12,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 58,
+    "name": "FIRE_M82B",
+    "withdrawal": 700,
+    "kills": 13,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 59,
+    "name": "KR_Titan_Drop",
+    "withdrawal": 2200,
+    "kills": 18,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 60,
+    "name": "RX_FrostByte_King",
+    "withdrawal": 1500,
+    "kills": 23,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 61,
+    "name": "TL_Static",
+    "withdrawal": 750,
+    "kills": 22,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 62,
+    "name": "VALOR_Vortex_EX",
+    "withdrawal": 2800,
+    "kills": 18,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 63,
+    "name": "APEX_OneTap",
+    "withdrawal": 2200,
+    "kills": 17,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 64,
+    "name": "Ronin_Pro",
+    "withdrawal": 200,
+    "kills": 9,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 65,
+    "name": "SYN_Raptor_Clutch",
+    "withdrawal": 1300,
+    "kills": 8,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 66,
+    "name": "NightRider_Clutch",
+    "withdrawal": 800,
+    "kills": 16,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 67,
+    "name": "SquadLead_FF",
+    "withdrawal": 750,
+    "kills": 8,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 68,
+    "name": "RAID_Samurai_07",
+    "withdrawal": 1000,
+    "kills": 9,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 69,
+    "name": "CYBER_VoltShock",
+    "withdrawal": 1100,
+    "kills": 5,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 70,
+    "name": "GODL_Pulse_X",
+    "withdrawal": 700,
+    "kills": 18,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 71,
+    "name": "Commander_Clutch",
+    "withdrawal": 1100,
+    "kills": 5,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 72,
+    "name": "Gladiator_400",
+    "withdrawal": 4000,
+    "kills": 16,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 73,
+    "name": "Blaster_702",
+    "withdrawal": 1400,
+    "kills": 12,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 74,
+    "name": "NOVA_Shadow",
+    "withdrawal": 1300,
+    "kills": 15,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 75,
+    "name": "BloodHound_Ace",
+    "withdrawal": 900,
+    "kills": 15,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 76,
+    "name": "FNTC_Raven_Headshot",
+    "withdrawal": 2800,
+    "kills": 17,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 77,
+    "name": "CYBER_Goliath_Live",
+    "withdrawal": 1800,
+    "kills": 11,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 78,
+    "name": "PRX_DarkKnight",
+    "withdrawal": 750,
+    "kills": 8,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 79,
+    "name": "WLR_Immortal_EX",
+    "withdrawal": 5000,
+    "kills": 18,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 80,
+    "name": "Blaster_979",
+    "withdrawal": 300,
+    "kills": 15,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 81,
+    "name": "NOVA_Havoc",
+    "withdrawal": 1300,
+    "kills": 16,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 82,
+    "name": "TSM_Assassin_7",
+    "withdrawal": 4000,
+    "kills": 6,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 83,
+    "name": "RRQ_Rusher_10",
+    "withdrawal": 700,
+    "kills": 13,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 84,
+    "name": "FNC_DeathWish_Mod",
+    "withdrawal": 3000,
+    "kills": 8,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 85,
+    "name": "VALOR_StrikerX",
+    "withdrawal": 900,
+    "kills": 15,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 86,
+    "name": "Crusher_24",
+    "withdrawal": 3000,
+    "kills": 8,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 87,
+    "name": "RAID_Beast_King",
+    "withdrawal": 2500,
+    "kills": 6,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 88,
+    "name": "SOUL_Venom_Drop",
+    "withdrawal": 3000,
+    "kills": 16,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 89,
+    "name": "RAID_Titan_07",
+    "withdrawal": 1800,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 90,
+    "name": "HYDRA_Cobra_V2",
+    "withdrawal": 1200,
+    "kills": 6,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 91,
+    "name": "OR_StormBreaker_007",
+    "withdrawal": 1300,
+    "kills": 15,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 92,
+    "name": "RX_Echo",
+    "withdrawal": 2200,
+    "kills": 11,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 93,
+    "name": "SilentAim_735",
+    "withdrawal": 1300,
+    "kills": 22,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 94,
+    "name": "SEN_ClashKing",
+    "withdrawal": 1400,
+    "kills": 23,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 95,
+    "name": "NOVA_Phantom_99",
+    "withdrawal": 4000,
+    "kills": 18,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 96,
+    "name": "TSM_Frost_Ultra",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 97,
+    "name": "VFX_Pulse_King",
+    "withdrawal": 700,
+    "kills": 18,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 98,
+    "name": "FALCON_Frost_Drop",
+    "withdrawal": 200,
+    "kills": 15,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 99,
+    "name": "OR_Specter",
+    "withdrawal": 3000,
+    "kills": 20,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 100,
+    "name": "Shadow_Master",
+    "withdrawal": 500,
+    "kills": 21,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 101,
+    "name": "VIPER_Krono",
+    "withdrawal": 800,
+    "kills": 16,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 102,
+    "name": "WLR_GlooGod_Elite",
+    "withdrawal": 1300,
+    "kills": 10,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 103,
+    "name": "Flash_260",
+    "withdrawal": 800,
+    "kills": 8,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 104,
+    "name": "Hazard_933",
+    "withdrawal": 700,
+    "kills": 14,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 105,
+    "name": "Reaper_GG",
+    "withdrawal": 2500,
+    "kills": 8,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 106,
+    "name": "EVOS_AwmKing_Max",
+    "withdrawal": 800,
+    "kills": 23,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 107,
+    "name": "VoltShock_7",
+    "withdrawal": 800,
+    "kills": 17,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 108,
+    "name": "100T_Goliath",
+    "withdrawal": 1600,
+    "kills": 16,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 109,
+    "name": "NRG_Zenith",
+    "withdrawal": 1200,
+    "kills": 6,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 110,
+    "name": "RX_Matrix",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 111,
+    "name": "BooyahKing_Ace",
+    "withdrawal": 3500,
+    "kills": 19,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 112,
+    "name": "EXG_Sniper_55",
+    "withdrawal": 600,
+    "kills": 11,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 113,
+    "name": "Specter_127",
+    "withdrawal": 1000,
+    "kills": 9,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 114,
+    "name": "NRG_Overlord_Fire",
+    "withdrawal": 2200,
+    "kills": 23,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 115,
+    "name": "EVOS_Crusher_13",
+    "withdrawal": 1800,
+    "kills": 13,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 116,
+    "name": "WLR_Flick_Core",
+    "withdrawal": 1600,
+    "kills": 10,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 117,
+    "name": "Inferno_King",
+    "withdrawal": 500,
+    "kills": 18,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 118,
+    "name": "AimGod_533",
+    "withdrawal": 750,
+    "kills": 12,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 119,
+    "name": "BooyahKing_99",
+    "withdrawal": 1000,
+    "kills": 15,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 120,
+    "name": "LNX_Slayer_EX",
+    "withdrawal": 4000,
+    "kills": 20,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 121,
+    "name": "Demon_98",
+    "withdrawal": 800,
+    "kills": 13,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 122,
+    "name": "Ranger_921",
+    "withdrawal": 1500,
+    "kills": 23,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 123,
+    "name": "RRQ_Clutch_7",
+    "withdrawal": 500,
+    "kills": 11,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 124,
+    "name": "Static_956",
+    "withdrawal": 4000,
+    "kills": 14,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 125,
+    "name": "Blaze_68",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 126,
+    "name": "CyberWolf_793",
+    "withdrawal": 3500,
+    "kills": 13,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 127,
+    "name": "FALCON_Cobra",
+    "withdrawal": 1400,
+    "kills": 17,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 128,
+    "name": "GODL_Matrix_God",
+    "withdrawal": 2000,
+    "kills": 9,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 129,
+    "name": "Frag_01",
+    "withdrawal": 700,
+    "kills": 11,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 130,
+    "name": "Blade_518",
+    "withdrawal": 700,
+    "kills": 20,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 131,
+    "name": "Rusher_Fire",
+    "withdrawal": 1000,
+    "kills": 15,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 132,
+    "name": "Reaper_55",
+    "withdrawal": 2800,
+    "kills": 5,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 133,
+    "name": "PRX_Blaster",
+    "withdrawal": 2800,
+    "kills": 16,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 134,
+    "name": "OneTap_GG",
+    "withdrawal": 1000,
+    "kills": 7,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 135,
+    "name": "SEN_Gladiator_King",
+    "withdrawal": 700,
+    "kills": 21,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 136,
+    "name": "Trooper_Zero",
+    "withdrawal": 5000,
+    "kills": 15,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 137,
+    "name": "Striker_Prime",
+    "withdrawal": 1100,
+    "kills": 21,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 138,
+    "name": "VX_Zero",
+    "withdrawal": 1000,
+    "kills": 15,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 139,
+    "name": "OG_Apex",
+    "withdrawal": 400,
+    "kills": 15,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 140,
+    "name": "Volt_01",
+    "withdrawal": 1000,
+    "kills": 23,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 141,
+    "name": "LNX_PhantomX_Mod",
+    "withdrawal": 3500,
+    "kills": 9,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 142,
+    "name": "RAID_BloodHound_GG",
+    "withdrawal": 1500,
+    "kills": 11,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 143,
+    "name": "EXG_OneTap",
+    "withdrawal": 700,
+    "kills": 20,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 144,
+    "name": "VIPER_Inferno_Live",
+    "withdrawal": 1200,
+    "kills": 6,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 145,
+    "name": "OG_Raven_Headshot",
+    "withdrawal": 400,
+    "kills": 22,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 146,
+    "name": "DARK_Tornado_55",
+    "withdrawal": 1100,
+    "kills": 11,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 147,
+    "name": "RAID_Trooper_99",
+    "withdrawal": 400,
+    "kills": 17,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 148,
+    "name": "Static_831",
+    "withdrawal": 200,
+    "kills": 23,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 149,
+    "name": "SEN_Airdrop_Boss",
+    "withdrawal": 1400,
+    "kills": 22,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 150,
+    "name": "SYN_OneTap_X",
+    "withdrawal": 500,
+    "kills": 18,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 151,
+    "name": "CYBER_Nova_Zone",
+    "withdrawal": 2000,
+    "kills": 12,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 152,
+    "name": "FIRE_QuickScope_Kill",
+    "withdrawal": 400,
+    "kills": 11,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 153,
+    "name": "WLR_Specter",
+    "withdrawal": 700,
+    "kills": 22,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 154,
+    "name": "VIPER_FireLord_69",
+    "withdrawal": 2000,
+    "kills": 6,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 155,
+    "name": "NX_Woodpecker_Rush",
+    "withdrawal": 700,
+    "kills": 23,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 156,
+    "name": "Cobra_X",
+    "withdrawal": 1000,
+    "kills": 6,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 157,
+    "name": "Apex_55",
+    "withdrawal": 800,
+    "kills": 11,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 158,
+    "name": "OneTap_88",
+    "withdrawal": 1400,
+    "kills": 20,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 159,
+    "name": "Lightning_360",
+    "withdrawal": 3500,
+    "kills": 20,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 160,
+    "name": "AwmKing_Top",
+    "withdrawal": 200,
+    "kills": 12,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 161,
+    "name": "FNTC_Pulse",
+    "withdrawal": 1100,
+    "kills": 12,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 162,
+    "name": "Mp40King_99",
+    "withdrawal": 2200,
+    "kills": 15,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 163,
+    "name": "NOVA_Knight_Zero",
+    "withdrawal": 5000,
+    "kills": 14,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 164,
+    "name": "NOVA_Scope",
+    "withdrawal": 800,
+    "kills": 11,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 165,
+    "name": "Zero_VIP",
+    "withdrawal": 500,
+    "kills": 14,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 166,
+    "name": "PRX_RedDot_Prime",
+    "withdrawal": 4000,
+    "kills": 20,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 167,
+    "name": "EVOS_DarkKnight",
+    "withdrawal": 1300,
+    "kills": 14,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 168,
+    "name": "SEN_Wraith_X",
+    "withdrawal": 1500,
+    "kills": 11,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 169,
+    "name": "BooyahKing_384",
+    "withdrawal": 2200,
+    "kills": 6,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 170,
+    "name": "FNTC_Apex_One",
+    "withdrawal": 700,
+    "kills": 16,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 171,
+    "name": "FNTC_Woodpecker_69",
+    "withdrawal": 1500,
+    "kills": 19,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 172,
+    "name": "Zone_Win",
+    "withdrawal": 4000,
+    "kills": 10,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 173,
+    "name": "Storm_Master",
+    "withdrawal": 4000,
+    "kills": 12,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 174,
+    "name": "RAID_GlooGod_V2",
+    "withdrawal": 200,
+    "kills": 8,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 175,
+    "name": "BLCK_Cobra_VIP",
+    "withdrawal": 400,
+    "kills": 23,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 176,
+    "name": "PRX_Scope_Ace",
+    "withdrawal": 1200,
+    "kills": 18,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 177,
+    "name": "OG_Vortex",
+    "withdrawal": 400,
+    "kills": 13,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 178,
+    "name": "APEX_Ghost_77",
+    "withdrawal": 200,
+    "kills": 15,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 179,
+    "name": "SilentAim_642",
+    "withdrawal": 700,
+    "kills": 10,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 180,
+    "name": "Gladiator_OP",
+    "withdrawal": 600,
+    "kills": 23,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 181,
+    "name": "NRG_Storm_33",
+    "withdrawal": 200,
+    "kills": 8,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 182,
+    "name": "WLR_Beast_Zero",
+    "withdrawal": 700,
+    "kills": 19,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 183,
+    "name": "NEO_ClashKing_X",
+    "withdrawal": 750,
+    "kills": 6,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 184,
+    "name": "OG_Headshot_X",
+    "withdrawal": 400,
+    "kills": 15,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 185,
+    "name": "Mp40King_Kill",
+    "withdrawal": 700,
+    "kills": 13,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 186,
+    "name": "APEX_BooyahKing",
+    "withdrawal": 800,
+    "kills": 17,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 187,
+    "name": "100T_Apex",
+    "withdrawal": 800,
+    "kills": 9,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 188,
+    "name": "ClashKing_405",
+    "withdrawal": 2500,
+    "kills": 20,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 189,
+    "name": "ClashKing_007",
+    "withdrawal": 3000,
+    "kills": 5,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 190,
+    "name": "Vortex_328",
+    "withdrawal": 1200,
+    "kills": 7,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 191,
+    "name": "Immortal_Live",
+    "withdrawal": 1500,
+    "kills": 10,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 192,
+    "name": "NOVA_Raven",
+    "withdrawal": 5000,
+    "kills": 8,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 193,
+    "name": "VIPER_Rogue_God",
+    "withdrawal": 2800,
+    "kills": 21,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 194,
+    "name": "SYN_Outlaw_One",
+    "withdrawal": 1400,
+    "kills": 23,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 195,
+    "name": "Reaper_225",
+    "withdrawal": 2000,
+    "kills": 6,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 196,
+    "name": "GlooGod_500",
+    "withdrawal": 1300,
+    "kills": 12,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 197,
+    "name": "WLR_Matrix",
+    "withdrawal": 800,
+    "kills": 8,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 198,
+    "name": "Flash_493",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 199,
+    "name": "Thunder_198",
+    "withdrawal": 200,
+    "kills": 14,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 200,
+    "name": "FIRE_PhantomX_King",
+    "withdrawal": 750,
+    "kills": 20,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 201,
+    "name": "DARK_AimGod",
+    "withdrawal": 200,
+    "kills": 21,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 202,
+    "name": "Ghost_429",
+    "withdrawal": 300,
+    "kills": 22,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 203,
+    "name": "NOVA_DarkKnight",
+    "withdrawal": 600,
+    "kills": 7,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 204,
+    "name": "ZETA_RedDot_Win",
+    "withdrawal": 900,
+    "kills": 7,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 205,
+    "name": "OR_Enforcer",
+    "withdrawal": 3000,
+    "kills": 5,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 206,
+    "name": "Phoenix_223",
+    "withdrawal": 4000,
+    "kills": 13,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 207,
+    "name": "DeathWish_869",
+    "withdrawal": 500,
+    "kills": 10,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 208,
+    "name": "WLR_Outlaw_10",
+    "withdrawal": 900,
+    "kills": 13,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 209,
+    "name": "Alok_128",
+    "withdrawal": 1500,
+    "kills": 9,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 210,
+    "name": "Airdrop_7",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 211,
+    "name": "Blaster_Fire",
+    "withdrawal": 600,
+    "kills": 17,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 212,
+    "name": "VX_Reaper_Mod",
+    "withdrawal": 5000,
+    "kills": 5,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 213,
+    "name": "SYN_Rebel",
+    "withdrawal": 900,
+    "kills": 10,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 214,
+    "name": "Woodpecker_898",
+    "withdrawal": 1400,
+    "kills": 11,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 215,
+    "name": "NRG_IronFist_Elite",
+    "withdrawal": 1200,
+    "kills": 10,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 216,
+    "name": "Eclipse_OP",
+    "withdrawal": 3500,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 217,
+    "name": "VALOR_Zone",
+    "withdrawal": 3000,
+    "kills": 22,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 218,
+    "name": "Stalker_Rush",
+    "withdrawal": 1400,
+    "kills": 18,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 219,
+    "name": "NEO_Thunder_Best",
+    "withdrawal": 1100,
+    "kills": 23,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 220,
+    "name": "SEN_Tornado",
+    "withdrawal": 400,
+    "kills": 13,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 221,
+    "name": "Ronin_10",
+    "withdrawal": 1000,
+    "kills": 6,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 222,
+    "name": "GEN_GlooGod",
+    "withdrawal": 2500,
+    "kills": 14,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 223,
+    "name": "Dynamo_10",
+    "withdrawal": 900,
+    "kills": 19,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 224,
+    "name": "AimGod_864",
+    "withdrawal": 2800,
+    "kills": 16,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 225,
+    "name": "FIRE_Beast_Fire",
+    "withdrawal": 4000,
+    "kills": 5,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 226,
+    "name": "VoltShock_841",
+    "withdrawal": 200,
+    "kills": 18,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 227,
+    "name": "NOVA_Volt_King",
+    "withdrawal": 200,
+    "kills": 21,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 228,
+    "name": "RAID_CyberWolf_Drop",
+    "withdrawal": 5000,
+    "kills": 11,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 229,
+    "name": "FIRE_Cobra_Elite",
+    "withdrawal": 2000,
+    "kills": 18,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 230,
+    "name": "AimGod_One",
+    "withdrawal": 2000,
+    "kills": 6,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 231,
+    "name": "CyberWolf_007",
+    "withdrawal": 5000,
+    "kills": 18,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 232,
+    "name": "Hayato_Clutch",
+    "withdrawal": 750,
+    "kills": 5,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 233,
+    "name": "FALCON_Vortex",
+    "withdrawal": 2200,
+    "kills": 19,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 234,
+    "name": "RX_Phoenix",
+    "withdrawal": 500,
+    "kills": 20,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 235,
+    "name": "SOUL_Static",
+    "withdrawal": 2800,
+    "kills": 20,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 236,
+    "name": "NRG_Dynamo_Live",
+    "withdrawal": 400,
+    "kills": 8,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 237,
+    "name": "Chaos_99",
+    "withdrawal": 2500,
+    "kills": 16,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 238,
+    "name": "Headshot_Ace",
+    "withdrawal": 2800,
+    "kills": 12,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 239,
+    "name": "SOUL_Echo",
+    "withdrawal": 600,
+    "kills": 9,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 240,
+    "name": "VoltShock_127",
+    "withdrawal": 1300,
+    "kills": 9,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 241,
+    "name": "PRX_QuickScope",
+    "withdrawal": 1300,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 242,
+    "name": "Pulse_648",
+    "withdrawal": 1100,
+    "kills": 7,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 243,
+    "name": "RRQ_Alok",
+    "withdrawal": 300,
+    "kills": 21,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 244,
+    "name": "NX_Blade",
+    "withdrawal": 750,
+    "kills": 17,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 245,
+    "name": "BLCK_Scout",
+    "withdrawal": 1300,
+    "kills": 14,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 246,
+    "name": "Zenith_007",
+    "withdrawal": 1600,
+    "kills": 17,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 247,
+    "name": "Trooper_44",
+    "withdrawal": 4000,
+    "kills": 21,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 248,
+    "name": "Ronin_112",
+    "withdrawal": 900,
+    "kills": 9,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 249,
+    "name": "Ranger_69",
+    "withdrawal": 700,
+    "kills": 22,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 250,
+    "name": "TL_Drop",
+    "withdrawal": 500,
+    "kills": 17,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 251,
+    "name": "Draco_293",
+    "withdrawal": 2500,
+    "kills": 17,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 252,
+    "name": "GODL_Striker",
+    "withdrawal": 200,
+    "kills": 10,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 253,
+    "name": "Wukong_7",
+    "withdrawal": 400,
+    "kills": 5,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 254,
+    "name": "Trooper_Win",
+    "withdrawal": 1200,
+    "kills": 17,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 255,
+    "name": "TL_DarkKnight",
+    "withdrawal": 900,
+    "kills": 23,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 256,
+    "name": "Tornado_Zone",
+    "withdrawal": 900,
+    "kills": 16,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 257,
+    "name": "NOVA_Viper_Drop",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 258,
+    "name": "VFX_Samurai_God",
+    "withdrawal": 2200,
+    "kills": 19,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 259,
+    "name": "DARK_Lightning_Zero",
+    "withdrawal": 3500,
+    "kills": 15,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 260,
+    "name": "SYN_Tornado_77",
+    "withdrawal": 900,
+    "kills": 10,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 261,
+    "name": "FNC_Rebel",
+    "withdrawal": 500,
+    "kills": 6,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 262,
+    "name": "100T_Hazard",
+    "withdrawal": 2500,
+    "kills": 20,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 263,
+    "name": "FNTC_QuickScope_Prime",
+    "withdrawal": 800,
+    "kills": 7,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 264,
+    "name": "Immortal_868",
+    "withdrawal": 1100,
+    "kills": 22,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 265,
+    "name": "OG_Havoc_Prime",
+    "withdrawal": 2000,
+    "kills": 7,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 266,
+    "name": "Cobra_624",
+    "withdrawal": 3500,
+    "kills": 14,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 267,
+    "name": "FALCON_Ronin_07",
+    "withdrawal": 300,
+    "kills": 23,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 268,
+    "name": "SK_Viper_YT",
+    "withdrawal": 1500,
+    "kills": 8,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 269,
+    "name": "Specter_Best",
+    "withdrawal": 200,
+    "kills": 12,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 270,
+    "name": "NEO_Raptor",
+    "withdrawal": 1000,
+    "kills": 8,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 271,
+    "name": "C9_Ninja_GG",
+    "withdrawal": 200,
+    "kills": 6,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 272,
+    "name": "SYN_Storm",
+    "withdrawal": 1400,
+    "kills": 18,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 273,
+    "name": "KR_Goliath",
+    "withdrawal": 1300,
+    "kills": 20,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 274,
+    "name": "FIRE_Echo",
+    "withdrawal": 1000,
+    "kills": 12,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 275,
+    "name": "DARK_Sniper",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 276,
+    "name": "Sniper_Mod",
+    "withdrawal": 300,
+    "kills": 7,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 277,
+    "name": "DRX_Hazard",
+    "withdrawal": 5000,
+    "kills": 21,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 278,
+    "name": "VALOR_BloodHound_4v4",
+    "withdrawal": 1300,
+    "kills": 10,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 279,
+    "name": "NX_DarkKnight",
+    "withdrawal": 600,
+    "kills": 21,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 280,
+    "name": "VX_Flick",
+    "withdrawal": 1100,
+    "kills": 11,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 281,
+    "name": "Venom_607",
+    "withdrawal": 800,
+    "kills": 6,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 282,
+    "name": "APEX_Frag",
+    "withdrawal": 2000,
+    "kills": 10,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 283,
+    "name": "OG_StrikerX_V2",
+    "withdrawal": 3500,
+    "kills": 16,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 284,
+    "name": "VoltShock_44",
+    "withdrawal": 3000,
+    "kills": 18,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 285,
+    "name": "EVOS_PhantomX",
+    "withdrawal": 3000,
+    "kills": 11,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 286,
+    "name": "WLR_Immortal_King",
+    "withdrawal": 1200,
+    "kills": 5,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 287,
+    "name": "EVOS_Echo_24",
+    "withdrawal": 400,
+    "kills": 19,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 288,
+    "name": "OG_Venom",
+    "withdrawal": 1000,
+    "kills": 15,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 289,
+    "name": "VFX_Alok_24",
+    "withdrawal": 1600,
+    "kills": 21,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 290,
+    "name": "NRG_Ninja_Zone",
+    "withdrawal": 2800,
+    "kills": 22,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 291,
+    "name": "C9_Raptor",
+    "withdrawal": 3500,
+    "kills": 6,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 292,
+    "name": "BLCK_DarkKnight_OP",
+    "withdrawal": 1500,
+    "kills": 17,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 293,
+    "name": "BLCK_Trigger_Sniper",
+    "withdrawal": 1600,
+    "kills": 22,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 294,
+    "name": "DarkKnight_195",
+    "withdrawal": 600,
+    "kills": 8,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 295,
+    "name": "Reaper_761",
+    "withdrawal": 2500,
+    "kills": 13,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 296,
+    "name": "Slayer_Ace",
+    "withdrawal": 2800,
+    "kills": 15,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 297,
+    "name": "StormBreaker_808",
+    "withdrawal": 2800,
+    "kills": 11,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 298,
+    "name": "Beast_720",
+    "withdrawal": 700,
+    "kills": 5,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 299,
+    "name": "Ghost_156",
+    "withdrawal": 700,
+    "kills": 12,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 300,
+    "name": "TSM_Thunder_99",
+    "withdrawal": 1400,
+    "kills": 14,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 301,
+    "name": "NX_SquadLead",
+    "withdrawal": 1300,
+    "kills": 19,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 302,
+    "name": "SEN_Krono",
+    "withdrawal": 300,
+    "kills": 14,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 303,
+    "name": "VFX_Dynamo",
+    "withdrawal": 2800,
+    "kills": 17,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 304,
+    "name": "Lightning_Ultra",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 305,
+    "name": "VALOR_Blaze_OP",
+    "withdrawal": 600,
+    "kills": 8,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 306,
+    "name": "Trooper_88",
+    "withdrawal": 1500,
+    "kills": 9,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 307,
+    "name": "DRX_Ronin",
+    "withdrawal": 200,
+    "kills": 22,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 308,
+    "name": "Hunter_Ace",
+    "withdrawal": 1200,
+    "kills": 15,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 309,
+    "name": "NEO_Titan_13",
+    "withdrawal": 200,
+    "kills": 18,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 310,
+    "name": "Stalker_333",
+    "withdrawal": 1800,
+    "kills": 6,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 311,
+    "name": "DARK_Rogue_55",
+    "withdrawal": 750,
+    "kills": 14,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 312,
+    "name": "DRX_Raven",
+    "withdrawal": 400,
+    "kills": 13,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 313,
+    "name": "TL_AimGod_55",
+    "withdrawal": 700,
+    "kills": 12,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 314,
+    "name": "Ninja_10",
+    "withdrawal": 2000,
+    "kills": 23,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 315,
+    "name": "Blaze_88",
+    "withdrawal": 1600,
+    "kills": 7,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 316,
+    "name": "KR_Chaos_77",
+    "withdrawal": 1000,
+    "kills": 11,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 317,
+    "name": "Vanguard_558",
+    "withdrawal": 600,
+    "kills": 12,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 318,
+    "name": "VFX_Blaster_Mod",
+    "withdrawal": 500,
+    "kills": 9,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 319,
+    "name": "RX_Ranger_Zero",
+    "withdrawal": 200,
+    "kills": 5,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 320,
+    "name": "FALCON_Headshot",
+    "withdrawal": 1200,
+    "kills": 18,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 321,
+    "name": "FALCON_Crate",
+    "withdrawal": 1000,
+    "kills": 6,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 322,
+    "name": "SEN_Matrix_Mod",
+    "withdrawal": 900,
+    "kills": 5,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 323,
+    "name": "Draco_Fire",
+    "withdrawal": 1400,
+    "kills": 16,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 324,
+    "name": "SquadLead_9",
+    "withdrawal": 1600,
+    "kills": 23,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 325,
+    "name": "DARK_Havoc_33",
+    "withdrawal": 500,
+    "kills": 7,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 326,
+    "name": "Zone_Sniper",
+    "withdrawal": 1400,
+    "kills": 12,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 327,
+    "name": "FALCON_Striker_Win",
+    "withdrawal": 900,
+    "kills": 9,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 328,
+    "name": "FIRE_Raptor",
+    "withdrawal": 1000,
+    "kills": 16,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 329,
+    "name": "GODL_Predator",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 330,
+    "name": "FIRE_SilentAim_24",
+    "withdrawal": 800,
+    "kills": 8,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 331,
+    "name": "Inferno_361",
+    "withdrawal": 300,
+    "kills": 10,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 332,
+    "name": "Cobra_YT",
+    "withdrawal": 1500,
+    "kills": 9,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 333,
+    "name": "Stalker_24",
+    "withdrawal": 2000,
+    "kills": 11,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 334,
+    "name": "VIPER_Viper",
+    "withdrawal": 700,
+    "kills": 9,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 335,
+    "name": "VIPER_Cobra_99",
+    "withdrawal": 500,
+    "kills": 12,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 336,
+    "name": "SYN_Shifter_9",
+    "withdrawal": 900,
+    "kills": 20,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 337,
+    "name": "WLR_Airdrop",
+    "withdrawal": 200,
+    "kills": 10,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 338,
+    "name": "PRX_IronFist",
+    "withdrawal": 200,
+    "kills": 11,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 339,
+    "name": "Lightning_24",
+    "withdrawal": 1200,
+    "kills": 17,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 340,
+    "name": "GEN_Shifter_Rush",
+    "withdrawal": 700,
+    "kills": 10,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 341,
+    "name": "SK_Predator_Ace",
+    "withdrawal": 800,
+    "kills": 20,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 342,
+    "name": "RAID_Lightning_Sniper",
+    "withdrawal": 1400,
+    "kills": 6,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 343,
+    "name": "Overlord_Max",
+    "withdrawal": 2200,
+    "kills": 17,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 344,
+    "name": "Reflex_Best",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 345,
+    "name": "Rebel_77",
+    "withdrawal": 750,
+    "kills": 17,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 346,
+    "name": "100T_Raptor_Master",
+    "withdrawal": 2500,
+    "kills": 8,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 347,
+    "name": "FNC_Krono_Ace",
+    "withdrawal": 900,
+    "kills": 10,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 348,
+    "name": "Matrix_265",
+    "withdrawal": 1100,
+    "kills": 22,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 349,
+    "name": "OR_Thunder",
+    "withdrawal": 800,
+    "kills": 7,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 350,
+    "name": "DARK_Specter_God",
+    "withdrawal": 2500,
+    "kills": 9,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 351,
+    "name": "SoloWolf_Mod",
+    "withdrawal": 3000,
+    "kills": 18,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 352,
+    "name": "Airdrop_88",
+    "withdrawal": 3000,
+    "kills": 22,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 353,
+    "name": "Enforcer_714",
+    "withdrawal": 2200,
+    "kills": 7,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 354,
+    "name": "Thunder_190",
+    "withdrawal": 3500,
+    "kills": 23,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 355,
+    "name": "CYBER_Eclipse",
+    "withdrawal": 600,
+    "kills": 13,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 356,
+    "name": "VALOR_Scout",
+    "withdrawal": 1100,
+    "kills": 16,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 357,
+    "name": "ZETA_Thunder",
+    "withdrawal": 200,
+    "kills": 6,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 358,
+    "name": "TSM_CyberWolf",
+    "withdrawal": 500,
+    "kills": 5,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 359,
+    "name": "Wukong_646",
+    "withdrawal": 3500,
+    "kills": 19,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 360,
+    "name": "Reflex_685",
+    "withdrawal": 1600,
+    "kills": 11,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 361,
+    "name": "Volt_Zero",
+    "withdrawal": 800,
+    "kills": 18,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 362,
+    "name": "SYN_Vortex",
+    "withdrawal": 700,
+    "kills": 21,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 363,
+    "name": "NRG_Rogue",
+    "withdrawal": 3000,
+    "kills": 16,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 364,
+    "name": "NightRider_EX",
+    "withdrawal": 1200,
+    "kills": 10,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 365,
+    "name": "SK_CyberWolf",
+    "withdrawal": 2800,
+    "kills": 15,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 366,
+    "name": "BLCK_Glitch_Ace",
+    "withdrawal": 750,
+    "kills": 6,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 367,
+    "name": "SEN_Ghost_GG",
+    "withdrawal": 300,
+    "kills": 10,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 368,
+    "name": "Trooper_880",
+    "withdrawal": 1800,
+    "kills": 5,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 369,
+    "name": "EXG_Specter_OP",
+    "withdrawal": 1500,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 370,
+    "name": "Loot_OP",
+    "withdrawal": 300,
+    "kills": 10,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 371,
+    "name": "SYN_QuickScope_GG",
+    "withdrawal": 2000,
+    "kills": 17,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 372,
+    "name": "CYBER_Vanguard",
+    "withdrawal": 1000,
+    "kills": 9,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 373,
+    "name": "DRX_Chaos",
+    "withdrawal": 1400,
+    "kills": 21,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 374,
+    "name": "ZETA_FrostByte",
+    "withdrawal": 1500,
+    "kills": 10,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 375,
+    "name": "Predator_Boss",
+    "withdrawal": 2500,
+    "kills": 8,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 376,
+    "name": "BLCK_Frost",
+    "withdrawal": 700,
+    "kills": 19,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 377,
+    "name": "OR_Apex",
+    "withdrawal": 3500,
+    "kills": 18,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 378,
+    "name": "Crusher_755",
+    "withdrawal": 1300,
+    "kills": 20,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 379,
+    "name": "NOVA_Wukong",
+    "withdrawal": 750,
+    "kills": 8,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 380,
+    "name": "Blaster_One",
+    "withdrawal": 300,
+    "kills": 20,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 381,
+    "name": "OG_Zone",
+    "withdrawal": 1000,
+    "kills": 20,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 382,
+    "name": "OR_Matrix_10",
+    "withdrawal": 3500,
+    "kills": 17,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 383,
+    "name": "GODL_SilentAim_OP",
+    "withdrawal": 2800,
+    "kills": 19,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 384,
+    "name": "FALCON_Rogue_Elite",
+    "withdrawal": 800,
+    "kills": 17,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 385,
+    "name": "APEX_ClashKing",
+    "withdrawal": 400,
+    "kills": 19,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 386,
+    "name": "SEN_Scout_Headshot",
+    "withdrawal": 2800,
+    "kills": 5,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 387,
+    "name": "RAID_ClashKing_GG",
+    "withdrawal": 900,
+    "kills": 12,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 388,
+    "name": "FNC_M82B_Headshot",
+    "withdrawal": 1200,
+    "kills": 19,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 389,
+    "name": "APEX_Hazard",
+    "withdrawal": 900,
+    "kills": 9,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 390,
+    "name": "Loot_88",
+    "withdrawal": 800,
+    "kills": 8,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 391,
+    "name": "SEN_Krono_24",
+    "withdrawal": 1300,
+    "kills": 9,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 392,
+    "name": "Hazard_Clutch",
+    "withdrawal": 500,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 393,
+    "name": "Beast_650",
+    "withdrawal": 700,
+    "kills": 7,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 394,
+    "name": "Apex_143",
+    "withdrawal": 700,
+    "kills": 13,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 395,
+    "name": "FNC_Havoc",
+    "withdrawal": 400,
+    "kills": 13,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 396,
+    "name": "RRQ_Static",
+    "withdrawal": 500,
+    "kills": 10,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 397,
+    "name": "Static_874",
+    "withdrawal": 3500,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 398,
+    "name": "Draco_270",
+    "withdrawal": 1400,
+    "kills": 18,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 399,
+    "name": "RedDot_FF",
+    "withdrawal": 1500,
+    "kills": 8,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 400,
+    "name": "Predator_Zone",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 401,
+    "name": "BooyahKing_754",
+    "withdrawal": 300,
+    "kills": 14,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 402,
+    "name": "Trooper_24",
+    "withdrawal": 400,
+    "kills": 8,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 403,
+    "name": "WLR_Knight_24",
+    "withdrawal": 900,
+    "kills": 21,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 404,
+    "name": "Assassin_Prime",
+    "withdrawal": 2000,
+    "kills": 14,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 405,
+    "name": "SEN_StormBreaker_13",
+    "withdrawal": 1200,
+    "kills": 21,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 406,
+    "name": "PRX_Dynamo_Live",
+    "withdrawal": 2000,
+    "kills": 16,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 407,
+    "name": "Phantom_637",
+    "withdrawal": 1600,
+    "kills": 18,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 408,
+    "name": "BLCK_Viper",
+    "withdrawal": 900,
+    "kills": 16,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 409,
+    "name": "RX_Predator_69",
+    "withdrawal": 1100,
+    "kills": 9,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 410,
+    "name": "RAID_Scope",
+    "withdrawal": 1100,
+    "kills": 22,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 411,
+    "name": "C9_SilentAim",
+    "withdrawal": 1500,
+    "kills": 23,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 412,
+    "name": "LNX_Reaper",
+    "withdrawal": 300,
+    "kills": 18,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 413,
+    "name": "Apex_V2",
+    "withdrawal": 2500,
+    "kills": 9,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 414,
+    "name": "PRX_Tornado",
+    "withdrawal": 300,
+    "kills": 9,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 415,
+    "name": "C9_Assassin",
+    "withdrawal": 300,
+    "kills": 22,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 416,
+    "name": "Ronin_007",
+    "withdrawal": 5000,
+    "kills": 8,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 417,
+    "name": "Shadow_Sniper",
+    "withdrawal": 400,
+    "kills": 21,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 418,
+    "name": "C9_Ronin_King",
+    "withdrawal": 1100,
+    "kills": 18,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 419,
+    "name": "Wukong_Clutch",
+    "withdrawal": 1000,
+    "kills": 20,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 420,
+    "name": "RX_Immortal",
+    "withdrawal": 1600,
+    "kills": 10,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 421,
+    "name": "QuickScope_Master",
+    "withdrawal": 900,
+    "kills": 20,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 422,
+    "name": "DARK_Knight",
+    "withdrawal": 1000,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 423,
+    "name": "SEN_Pulse_King",
+    "withdrawal": 750,
+    "kills": 18,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 424,
+    "name": "Demon_580",
+    "withdrawal": 1500,
+    "kills": 20,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 425,
+    "name": "ZETA_Mp40King_24",
+    "withdrawal": 900,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 426,
+    "name": "SOUL_Rusher_Pro",
+    "withdrawal": 1200,
+    "kills": 9,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 427,
+    "name": "PRX_SilentAim_Top",
+    "withdrawal": 1800,
+    "kills": 12,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 428,
+    "name": "DRX_Blaster_24",
+    "withdrawal": 500,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 429,
+    "name": "Frost_King",
+    "withdrawal": 1300,
+    "kills": 17,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 430,
+    "name": "NRG_Tornado",
+    "withdrawal": 1300,
+    "kills": 10,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 431,
+    "name": "Enforcer_483",
+    "withdrawal": 1500,
+    "kills": 12,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 432,
+    "name": "WLR_Clutch_Boss",
+    "withdrawal": 400,
+    "kills": 16,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 433,
+    "name": "TSM_Glitch",
+    "withdrawal": 1400,
+    "kills": 15,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 434,
+    "name": "SK_Assassin_Prime",
+    "withdrawal": 900,
+    "kills": 16,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 435,
+    "name": "SK_Trigger_Best",
+    "withdrawal": 2200,
+    "kills": 12,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 436,
+    "name": "OG_Eclipse",
+    "withdrawal": 1400,
+    "kills": 10,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 437,
+    "name": "C9_Drop_VIP",
+    "withdrawal": 3000,
+    "kills": 20,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 438,
+    "name": "PRX_RedDot",
+    "withdrawal": 1600,
+    "kills": 8,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 439,
+    "name": "RRQ_Rogue_Elite",
+    "withdrawal": 200,
+    "kills": 6,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 440,
+    "name": "Apex_183",
+    "withdrawal": 1300,
+    "kills": 22,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 441,
+    "name": "ZETA_Ninja_Mod",
+    "withdrawal": 2500,
+    "kills": 15,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 442,
+    "name": "Goliath_906",
+    "withdrawal": 2500,
+    "kills": 11,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 443,
+    "name": "FNTC_Zone_X",
+    "withdrawal": 900,
+    "kills": 11,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 444,
+    "name": "SEN_Dynamo_33",
+    "withdrawal": 1200,
+    "kills": 21,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 445,
+    "name": "RRQ_Slayer",
+    "withdrawal": 900,
+    "kills": 12,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 446,
+    "name": "RRQ_Tornado",
+    "withdrawal": 600,
+    "kills": 11,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 447,
+    "name": "GEN_Raptor",
+    "withdrawal": 600,
+    "kills": 5,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 448,
+    "name": "Blade_313",
+    "withdrawal": 4000,
+    "kills": 18,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 449,
+    "name": "Outlaw_530",
+    "withdrawal": 700,
+    "kills": 13,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 450,
+    "name": "Shifter_731",
+    "withdrawal": 1000,
+    "kills": 15,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 451,
+    "name": "Loot_267",
+    "withdrawal": 1400,
+    "kills": 7,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 452,
+    "name": "LNX_Zone_69",
+    "withdrawal": 700,
+    "kills": 8,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 453,
+    "name": "OG_AimGod",
+    "withdrawal": 800,
+    "kills": 13,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 454,
+    "name": "NRG_Scout",
+    "withdrawal": 1500,
+    "kills": 14,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 455,
+    "name": "OR_Volt_Ultra",
+    "withdrawal": 900,
+    "kills": 18,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 456,
+    "name": "C9_Scout_Ace",
+    "withdrawal": 900,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 457,
+    "name": "NRG_RedDot",
+    "withdrawal": 200,
+    "kills": 23,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 458,
+    "name": "100T_Shadow",
+    "withdrawal": 5000,
+    "kills": 12,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 459,
+    "name": "NX_Viper",
+    "withdrawal": 400,
+    "kills": 19,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 460,
+    "name": "VIPER_Storm",
+    "withdrawal": 1800,
+    "kills": 12,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 461,
+    "name": "TSM_Knight_Clutch",
+    "withdrawal": 200,
+    "kills": 7,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 462,
+    "name": "SYN_Slayer",
+    "withdrawal": 2500,
+    "kills": 21,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 463,
+    "name": "NOVA_Wraith",
+    "withdrawal": 2800,
+    "kills": 20,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 464,
+    "name": "Raptor_130",
+    "withdrawal": 700,
+    "kills": 20,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 465,
+    "name": "VX_Reflex_Prime",
+    "withdrawal": 750,
+    "kills": 7,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 466,
+    "name": "Krono_99",
+    "withdrawal": 300,
+    "kills": 20,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 467,
+    "name": "GEN_Venom_Core",
+    "withdrawal": 1500,
+    "kills": 19,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 468,
+    "name": "EVOS_Outlaw_Live",
+    "withdrawal": 4000,
+    "kills": 12,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 469,
+    "name": "EXG_Assassin_Zero",
+    "withdrawal": 1800,
+    "kills": 14,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 470,
+    "name": "NEO_Reaper_Sniper",
+    "withdrawal": 400,
+    "kills": 6,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 471,
+    "name": "DRX_QuickScope_Clutch",
+    "withdrawal": 500,
+    "kills": 7,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 472,
+    "name": "Raptor_234",
+    "withdrawal": 1600,
+    "kills": 16,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 473,
+    "name": "Apex_Win",
+    "withdrawal": 1100,
+    "kills": 17,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 474,
+    "name": "Outlaw_13",
+    "withdrawal": 700,
+    "kills": 14,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 475,
+    "name": "NRG_Shadow",
+    "withdrawal": 1500,
+    "kills": 11,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 476,
+    "name": "Pulse_217",
+    "withdrawal": 300,
+    "kills": 17,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 477,
+    "name": "Wraith_Top",
+    "withdrawal": 600,
+    "kills": 6,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 478,
+    "name": "SOUL_Crusher",
+    "withdrawal": 500,
+    "kills": 8,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 479,
+    "name": "PRX_SquadLead_GG",
+    "withdrawal": 500,
+    "kills": 17,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 480,
+    "name": "100T_Volt",
+    "withdrawal": 1400,
+    "kills": 17,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 481,
+    "name": "VALOR_Frag_007",
+    "withdrawal": 700,
+    "kills": 7,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 482,
+    "name": "Stalker_137",
+    "withdrawal": 600,
+    "kills": 18,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 483,
+    "name": "NRG_Blade",
+    "withdrawal": 1100,
+    "kills": 23,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 484,
+    "name": "Booyah_Top",
+    "withdrawal": 300,
+    "kills": 6,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 485,
+    "name": "SK_Havoc",
+    "withdrawal": 1300,
+    "kills": 18,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 486,
+    "name": "APEX_Shadow",
+    "withdrawal": 2000,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 487,
+    "name": "Enforcer_696",
+    "withdrawal": 1200,
+    "kills": 11,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 488,
+    "name": "Rogue_Top",
+    "withdrawal": 1500,
+    "kills": 22,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 489,
+    "name": "VIPER_RedDot_Headshot",
+    "withdrawal": 1600,
+    "kills": 20,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 490,
+    "name": "Inferno_438",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 491,
+    "name": "Hazard_Elite",
+    "withdrawal": 2200,
+    "kills": 12,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 492,
+    "name": "NEO_SilentAim",
+    "withdrawal": 800,
+    "kills": 8,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 493,
+    "name": "SYN_Zone_07",
+    "withdrawal": 1400,
+    "kills": 14,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 494,
+    "name": "M82B_195",
+    "withdrawal": 1800,
+    "kills": 12,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 495,
+    "name": "Hazard_Master",
+    "withdrawal": 900,
+    "kills": 18,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 496,
+    "name": "Ninja_681",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 497,
+    "name": "Rebel_133",
+    "withdrawal": 1800,
+    "kills": 21,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 498,
+    "name": "NOVA_Inferno_55",
+    "withdrawal": 1200,
+    "kills": 17,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 499,
+    "name": "Zenith_299",
+    "withdrawal": 1600,
+    "kills": 8,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 500,
+    "name": "VFX_Tornado_Elite",
+    "withdrawal": 1300,
+    "kills": 23,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 501,
+    "name": "GlooGod_88",
+    "withdrawal": 1100,
+    "kills": 18,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 502,
+    "name": "TSM_Scout",
+    "withdrawal": 1600,
+    "kills": 21,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 503,
+    "name": "OG_Nova",
+    "withdrawal": 1600,
+    "kills": 10,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 504,
+    "name": "FALCON_Airdrop_OP",
+    "withdrawal": 300,
+    "kills": 6,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 505,
+    "name": "WLR_Crusher_01",
+    "withdrawal": 1600,
+    "kills": 10,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 506,
+    "name": "VIPER_Chaos",
+    "withdrawal": 750,
+    "kills": 16,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 507,
+    "name": "SEN_Booyah_OP",
+    "withdrawal": 1300,
+    "kills": 5,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 508,
+    "name": "BLCK_RedDot_YT",
+    "withdrawal": 4000,
+    "kills": 12,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 509,
+    "name": "Shadow_618",
+    "withdrawal": 1300,
+    "kills": 12,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 510,
+    "name": "Clutch_55",
+    "withdrawal": 200,
+    "kills": 15,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 511,
+    "name": "100T_Demon",
+    "withdrawal": 1500,
+    "kills": 8,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 512,
+    "name": "FNC_Flick_GG",
+    "withdrawal": 3000,
+    "kills": 17,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 513,
+    "name": "Commander_380",
+    "withdrawal": 5000,
+    "kills": 21,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 514,
+    "name": "Zenith_Clutch",
+    "withdrawal": 800,
+    "kills": 6,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 515,
+    "name": "SOUL_Matrix",
+    "withdrawal": 750,
+    "kills": 6,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 516,
+    "name": "LNX_Commander",
+    "withdrawal": 1100,
+    "kills": 11,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 517,
+    "name": "FIRE_Ghost_Zone",
+    "withdrawal": 2200,
+    "kills": 18,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 518,
+    "name": "ZETA_Headshot",
+    "withdrawal": 700,
+    "kills": 6,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 519,
+    "name": "Cobra_88",
+    "withdrawal": 500,
+    "kills": 8,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 520,
+    "name": "Vortex_579",
+    "withdrawal": 1800,
+    "kills": 11,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 521,
+    "name": "LNX_Zenith_YT",
+    "withdrawal": 1200,
+    "kills": 10,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 522,
+    "name": "Alok_Headshot",
+    "withdrawal": 300,
+    "kills": 16,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 523,
+    "name": "Matrix_476",
+    "withdrawal": 4000,
+    "kills": 22,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 524,
+    "name": "Clutch_88",
+    "withdrawal": 1300,
+    "kills": 18,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 525,
+    "name": "SYN_SoloWolf_GG",
+    "withdrawal": 1400,
+    "kills": 9,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 526,
+    "name": "KR_Rusher",
+    "withdrawal": 1400,
+    "kills": 9,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 527,
+    "name": "OG_Woodpecker",
+    "withdrawal": 1500,
+    "kills": 23,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 528,
+    "name": "Ranger_24",
+    "withdrawal": 1100,
+    "kills": 11,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 529,
+    "name": "WLR_Rusher_7",
+    "withdrawal": 750,
+    "kills": 19,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 530,
+    "name": "Alok_822",
+    "withdrawal": 3500,
+    "kills": 8,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 531,
+    "name": "Ranger_487",
+    "withdrawal": 400,
+    "kills": 17,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 532,
+    "name": "VX_Titan",
+    "withdrawal": 2800,
+    "kills": 21,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 533,
+    "name": "NEO_AimGod",
+    "withdrawal": 300,
+    "kills": 22,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 534,
+    "name": "NEO_BooyahKing_Prime",
+    "withdrawal": 1200,
+    "kills": 7,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 535,
+    "name": "PhantomX_772",
+    "withdrawal": 2200,
+    "kills": 5,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 536,
+    "name": "FIRE_Booyah_V2",
+    "withdrawal": 400,
+    "kills": 13,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 537,
+    "name": "Striker_EX",
+    "withdrawal": 200,
+    "kills": 8,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 538,
+    "name": "Shifter_07",
+    "withdrawal": 2500,
+    "kills": 8,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 539,
+    "name": "Hunter_523",
+    "withdrawal": 1400,
+    "kills": 13,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 540,
+    "name": "NX_Apex_88",
+    "withdrawal": 700,
+    "kills": 13,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 541,
+    "name": "DARK_Ghost",
+    "withdrawal": 2800,
+    "kills": 13,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 542,
+    "name": "100T_Mp40King",
+    "withdrawal": 3000,
+    "kills": 21,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 543,
+    "name": "SK_Frag",
+    "withdrawal": 500,
+    "kills": 13,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 544,
+    "name": "TSM_Stalker_Live",
+    "withdrawal": 3000,
+    "kills": 14,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 545,
+    "name": "VFX_Crate",
+    "withdrawal": 2800,
+    "kills": 13,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 546,
+    "name": "Pulse_07",
+    "withdrawal": 1800,
+    "kills": 6,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 547,
+    "name": "Echo_735",
+    "withdrawal": 1400,
+    "kills": 5,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 548,
+    "name": "Scope_955",
+    "withdrawal": 500,
+    "kills": 18,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 549,
+    "name": "WLR_Trooper",
+    "withdrawal": 1000,
+    "kills": 17,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 550,
+    "name": "Rebel_605",
+    "withdrawal": 1600,
+    "kills": 17,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 551,
+    "name": "Cobra_Mod",
+    "withdrawal": 400,
+    "kills": 8,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 552,
+    "name": "RX_RedDot_Clutch",
+    "withdrawal": 200,
+    "kills": 23,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 553,
+    "name": "Viper_812",
+    "withdrawal": 1500,
+    "kills": 9,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 554,
+    "name": "NRG_Specter",
+    "withdrawal": 900,
+    "kills": 23,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 555,
+    "name": "DARK_Cobra",
+    "withdrawal": 200,
+    "kills": 7,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 556,
+    "name": "DRX_Demon",
+    "withdrawal": 5000,
+    "kills": 10,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 557,
+    "name": "Overlord_Mod",
+    "withdrawal": 600,
+    "kills": 22,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 558,
+    "name": "VIPER_Flick_Rush",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 559,
+    "name": "C9_Krono",
+    "withdrawal": 1200,
+    "kills": 13,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 560,
+    "name": "Shadow_223",
+    "withdrawal": 900,
+    "kills": 23,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 561,
+    "name": "RRQ_Nova",
+    "withdrawal": 5000,
+    "kills": 11,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 562,
+    "name": "SEN_Reflex",
+    "withdrawal": 1400,
+    "kills": 20,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 563,
+    "name": "Rogue_4v4",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 564,
+    "name": "DRX_QuickScope_007",
+    "withdrawal": 1100,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 565,
+    "name": "GODL_Volt_King",
+    "withdrawal": 900,
+    "kills": 12,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 566,
+    "name": "Phoenix_568",
+    "withdrawal": 1400,
+    "kills": 15,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 567,
+    "name": "FNC_Scout_King",
+    "withdrawal": 700,
+    "kills": 17,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 568,
+    "name": "DRX_Immortal_FF",
+    "withdrawal": 2200,
+    "kills": 19,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 569,
+    "name": "Apex_Mod",
+    "withdrawal": 750,
+    "kills": 20,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 570,
+    "name": "SK_Rebel",
+    "withdrawal": 400,
+    "kills": 9,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 571,
+    "name": "Ronin_508",
+    "withdrawal": 1100,
+    "kills": 6,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 572,
+    "name": "EVOS_Crate_Headshot",
+    "withdrawal": 1600,
+    "kills": 13,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 573,
+    "name": "Airdrop_GG",
+    "withdrawal": 2500,
+    "kills": 13,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 574,
+    "name": "WLR_SilentAim",
+    "withdrawal": 400,
+    "kills": 22,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 575,
+    "name": "SOUL_Rogue_Max",
+    "withdrawal": 1000,
+    "kills": 10,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 576,
+    "name": "FIRE_DarkKnight_Clutch",
+    "withdrawal": 3000,
+    "kills": 13,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 577,
+    "name": "Havoc_88",
+    "withdrawal": 1300,
+    "kills": 13,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 578,
+    "name": "WLR_Vanguard",
+    "withdrawal": 2000,
+    "kills": 17,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 579,
+    "name": "Trooper_598",
+    "withdrawal": 400,
+    "kills": 5,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 580,
+    "name": "VFX_Beast",
+    "withdrawal": 1200,
+    "kills": 9,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 581,
+    "name": "Wraith_01",
+    "withdrawal": 800,
+    "kills": 13,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 582,
+    "name": "Striker_591",
+    "withdrawal": 2500,
+    "kills": 9,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 583,
+    "name": "NEO_Crate_07",
+    "withdrawal": 1000,
+    "kills": 10,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 584,
+    "name": "WLR_Havoc",
+    "withdrawal": 4000,
+    "kills": 14,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 585,
+    "name": "Rusher_9",
+    "withdrawal": 4000,
+    "kills": 20,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 586,
+    "name": "FNTC_Static_24",
+    "withdrawal": 3500,
+    "kills": 7,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 587,
+    "name": "Blaze_99",
+    "withdrawal": 2000,
+    "kills": 6,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 588,
+    "name": "VALOR_Frag_Top",
+    "withdrawal": 1300,
+    "kills": 10,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 589,
+    "name": "SOUL_Vanguard_Win",
+    "withdrawal": 2500,
+    "kills": 5,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 590,
+    "name": "FNTC_Draco",
+    "withdrawal": 800,
+    "kills": 23,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 591,
+    "name": "KR_Flash_Boss",
+    "withdrawal": 1300,
+    "kills": 14,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 592,
+    "name": "WLR_Ninja_4v4",
+    "withdrawal": 1000,
+    "kills": 10,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 593,
+    "name": "SOUL_Titan_GG",
+    "withdrawal": 200,
+    "kills": 10,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 594,
+    "name": "Sniper_4v4",
+    "withdrawal": 700,
+    "kills": 23,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 595,
+    "name": "RX_Rebel_YT",
+    "withdrawal": 1500,
+    "kills": 15,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 596,
+    "name": "HYDRA_Ronin",
+    "withdrawal": 5000,
+    "kills": 7,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 597,
+    "name": "SYN_Immortal_Live",
+    "withdrawal": 750,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 598,
+    "name": "Airdrop_FF",
+    "withdrawal": 900,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 599,
+    "name": "Loot_701",
+    "withdrawal": 600,
+    "kills": 7,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 600,
+    "name": "PhantomX_OP",
+    "withdrawal": 3500,
+    "kills": 19,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 601,
+    "name": "CYBER_Thunder",
+    "withdrawal": 2500,
+    "kills": 16,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 602,
+    "name": "Frag_Top",
+    "withdrawal": 1300,
+    "kills": 5,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 603,
+    "name": "Sniper_33",
+    "withdrawal": 200,
+    "kills": 14,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 604,
+    "name": "Reflex_192",
+    "withdrawal": 900,
+    "kills": 8,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 605,
+    "name": "RRQ_Commander",
+    "withdrawal": 1500,
+    "kills": 5,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 606,
+    "name": "FIRE_Trooper_Mod",
+    "withdrawal": 1200,
+    "kills": 17,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 607,
+    "name": "GEN_Assassin_Ace",
+    "withdrawal": 2000,
+    "kills": 11,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 608,
+    "name": "PRX_Cobra_Ace",
+    "withdrawal": 3000,
+    "kills": 11,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 609,
+    "name": "Zero_Best",
+    "withdrawal": 4000,
+    "kills": 17,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 610,
+    "name": "GEN_Phantom_Master",
+    "withdrawal": 1200,
+    "kills": 14,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 611,
+    "name": "VX_Echo",
+    "withdrawal": 1100,
+    "kills": 8,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 612,
+    "name": "OneTap_Live",
+    "withdrawal": 600,
+    "kills": 22,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 613,
+    "name": "Scout_318",
+    "withdrawal": 2800,
+    "kills": 16,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 614,
+    "name": "FALCON_Outlaw",
+    "withdrawal": 500,
+    "kills": 20,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 615,
+    "name": "VALOR_Crate",
+    "withdrawal": 3500,
+    "kills": 10,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 616,
+    "name": "Ronin_271",
+    "withdrawal": 2200,
+    "kills": 15,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 617,
+    "name": "Echo_483",
+    "withdrawal": 2500,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 618,
+    "name": "FireLord_88",
+    "withdrawal": 750,
+    "kills": 13,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 619,
+    "name": "Storm_96",
+    "withdrawal": 1500,
+    "kills": 20,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 620,
+    "name": "RAID_Matrix",
+    "withdrawal": 800,
+    "kills": 23,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 621,
+    "name": "Rogue_Best",
+    "withdrawal": 750,
+    "kills": 10,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 622,
+    "name": "CYBER_Airdrop",
+    "withdrawal": 800,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 623,
+    "name": "EXG_Hazard_88",
+    "withdrawal": 500,
+    "kills": 5,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 624,
+    "name": "SYN_SilentAim_OP",
+    "withdrawal": 1400,
+    "kills": 17,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 625,
+    "name": "Glitch_Pro",
+    "withdrawal": 2500,
+    "kills": 12,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 626,
+    "name": "KR_Woodpecker",
+    "withdrawal": 1800,
+    "kills": 10,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 627,
+    "name": "RRQ_Zone_10",
+    "withdrawal": 2000,
+    "kills": 5,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 628,
+    "name": "NRG_Zero_007",
+    "withdrawal": 4000,
+    "kills": 8,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 629,
+    "name": "GlooGod_Sniper",
+    "withdrawal": 700,
+    "kills": 8,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 630,
+    "name": "Titan_Elite",
+    "withdrawal": 2800,
+    "kills": 23,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 631,
+    "name": "EVOS_Titan_55",
+    "withdrawal": 1200,
+    "kills": 23,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 632,
+    "name": "HYDRA_Storm",
+    "withdrawal": 900,
+    "kills": 22,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 633,
+    "name": "TL_Frag",
+    "withdrawal": 500,
+    "kills": 17,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 634,
+    "name": "RAID_Stalker",
+    "withdrawal": 4000,
+    "kills": 12,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 635,
+    "name": "SYN_Shifter_Fire",
+    "withdrawal": 1500,
+    "kills": 13,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 636,
+    "name": "Tornado_Drop",
+    "withdrawal": 750,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 637,
+    "name": "RRQ_Flash_FF",
+    "withdrawal": 800,
+    "kills": 21,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 638,
+    "name": "100T_Airdrop",
+    "withdrawal": 3500,
+    "kills": 15,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 639,
+    "name": "RX_BloodHound_Kill",
+    "withdrawal": 1400,
+    "kills": 8,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 640,
+    "name": "RRQ_Inferno_24",
+    "withdrawal": 5000,
+    "kills": 16,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 641,
+    "name": "100T_Lightning",
+    "withdrawal": 2500,
+    "kills": 7,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 642,
+    "name": "M82B_409",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 643,
+    "name": "CYBER_Phoenix_13",
+    "withdrawal": 1400,
+    "kills": 11,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 644,
+    "name": "TL_Immortal",
+    "withdrawal": 1300,
+    "kills": 18,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 645,
+    "name": "Zero_Elite",
+    "withdrawal": 600,
+    "kills": 18,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 646,
+    "name": "NRG_Raven_07",
+    "withdrawal": 2200,
+    "kills": 8,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 647,
+    "name": "SYN_Clutch",
+    "withdrawal": 1300,
+    "kills": 17,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 648,
+    "name": "Shadow_410",
+    "withdrawal": 2200,
+    "kills": 19,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 649,
+    "name": "HYDRA_Loot_Mod",
+    "withdrawal": 800,
+    "kills": 18,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 650,
+    "name": "TL_AimGod_Clutch",
+    "withdrawal": 1300,
+    "kills": 13,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 651,
+    "name": "LNX_ClashKing_Zero",
+    "withdrawal": 700,
+    "kills": 23,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 652,
+    "name": "OG_Rebel_God",
+    "withdrawal": 900,
+    "kills": 16,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 653,
+    "name": "GEN_Vanguard_Sniper",
+    "withdrawal": 2500,
+    "kills": 15,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 654,
+    "name": "NRG_Cobra",
+    "withdrawal": 700,
+    "kills": 10,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 655,
+    "name": "RAID_Beast_9",
+    "withdrawal": 1800,
+    "kills": 17,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 656,
+    "name": "Hazard_Pro",
+    "withdrawal": 600,
+    "kills": 14,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 657,
+    "name": "Blade_590",
+    "withdrawal": 900,
+    "kills": 20,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 658,
+    "name": "SEN_Overlord",
+    "withdrawal": 200,
+    "kills": 6,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 659,
+    "name": "DARK_CyberWolf_77",
+    "withdrawal": 900,
+    "kills": 21,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 660,
+    "name": "Zenith_793",
+    "withdrawal": 1100,
+    "kills": 9,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 661,
+    "name": "ClashKing_Boss",
+    "withdrawal": 2800,
+    "kills": 10,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 662,
+    "name": "TL_Samurai_Top",
+    "withdrawal": 2200,
+    "kills": 17,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 663,
+    "name": "HYDRA_Predator_FF",
+    "withdrawal": 3500,
+    "kills": 5,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 664,
+    "name": "EVOS_Static_Zero",
+    "withdrawal": 500,
+    "kills": 9,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 665,
+    "name": "GODL_Stalker_King",
+    "withdrawal": 200,
+    "kills": 10,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 666,
+    "name": "Hunter_Pro",
+    "withdrawal": 3500,
+    "kills": 23,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 667,
+    "name": "SEN_Striker_Mod",
+    "withdrawal": 1300,
+    "kills": 5,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 668,
+    "name": "Demon_938",
+    "withdrawal": 700,
+    "kills": 7,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 669,
+    "name": "DRX_Phoenix_7",
+    "withdrawal": 5000,
+    "kills": 19,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 670,
+    "name": "VALOR_Shadow",
+    "withdrawal": 2200,
+    "kills": 7,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 671,
+    "name": "EXG_Clutch_33",
+    "withdrawal": 1100,
+    "kills": 19,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 672,
+    "name": "RRQ_QuickScope_YT",
+    "withdrawal": 1800,
+    "kills": 6,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 673,
+    "name": "BLCK_Viper_Boss",
+    "withdrawal": 600,
+    "kills": 7,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 674,
+    "name": "PRX_PhantomX",
+    "withdrawal": 750,
+    "kills": 21,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 675,
+    "name": "VX_Striker_Rush",
+    "withdrawal": 1200,
+    "kills": 19,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 676,
+    "name": "RX_Shifter_77",
+    "withdrawal": 200,
+    "kills": 16,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 677,
+    "name": "Drop_01",
+    "withdrawal": 2500,
+    "kills": 15,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 678,
+    "name": "WLR_Scope_88",
+    "withdrawal": 900,
+    "kills": 22,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 679,
+    "name": "Reaper_Zone",
+    "withdrawal": 1500,
+    "kills": 17,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 680,
+    "name": "SK_Vanguard",
+    "withdrawal": 1500,
+    "kills": 19,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 681,
+    "name": "Echo_58",
+    "withdrawal": 2800,
+    "kills": 10,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 682,
+    "name": "CYBER_Ninja_YT",
+    "withdrawal": 4000,
+    "kills": 23,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 683,
+    "name": "Rusher_153",
+    "withdrawal": 300,
+    "kills": 12,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 684,
+    "name": "LNX_Commander_4v4",
+    "withdrawal": 400,
+    "kills": 20,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 685,
+    "name": "Blaster_Rush",
+    "withdrawal": 1100,
+    "kills": 10,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 686,
+    "name": "RRQ_Chaos",
+    "withdrawal": 300,
+    "kills": 13,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 687,
+    "name": "Matrix_628",
+    "withdrawal": 3000,
+    "kills": 11,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 688,
+    "name": "Bullet_10",
+    "withdrawal": 3500,
+    "kills": 13,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 689,
+    "name": "Scope_252",
+    "withdrawal": 5000,
+    "kills": 19,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 690,
+    "name": "EXG_IronFist_24",
+    "withdrawal": 2800,
+    "kills": 17,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 691,
+    "name": "SOUL_Zone_24",
+    "withdrawal": 200,
+    "kills": 5,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 692,
+    "name": "Zenith_King",
+    "withdrawal": 500,
+    "kills": 23,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 693,
+    "name": "WLR_Gladiator",
+    "withdrawal": 1600,
+    "kills": 11,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 694,
+    "name": "Eclipse_187",
+    "withdrawal": 2000,
+    "kills": 17,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 695,
+    "name": "NightRider_913",
+    "withdrawal": 1500,
+    "kills": 14,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 696,
+    "name": "HYDRA_Immortal",
+    "withdrawal": 900,
+    "kills": 7,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 697,
+    "name": "WLR_Striker",
+    "withdrawal": 3500,
+    "kills": 7,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 698,
+    "name": "Bullet_Ace",
+    "withdrawal": 400,
+    "kills": 20,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 699,
+    "name": "PRX_Blaze",
+    "withdrawal": 400,
+    "kills": 15,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 700,
+    "name": "NEO_Samurai_Prime",
+    "withdrawal": 200,
+    "kills": 18,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 701,
+    "name": "PRX_Crate_Headshot",
+    "withdrawal": 200,
+    "kills": 14,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 702,
+    "name": "OR_Enforcer_Master",
+    "withdrawal": 700,
+    "kills": 12,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 703,
+    "name": "Pulse_King",
+    "withdrawal": 700,
+    "kills": 21,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 704,
+    "name": "BLCK_Goliath_Win",
+    "withdrawal": 4000,
+    "kills": 8,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 705,
+    "name": "100T_Striker",
+    "withdrawal": 2200,
+    "kills": 23,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 706,
+    "name": "FireLord_694",
+    "withdrawal": 300,
+    "kills": 20,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 707,
+    "name": "PRX_Headshot_EX",
+    "withdrawal": 1500,
+    "kills": 5,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 708,
+    "name": "Slayer_Best",
+    "withdrawal": 5000,
+    "kills": 19,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 709,
+    "name": "APEX_Woodpecker",
+    "withdrawal": 1000,
+    "kills": 19,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 710,
+    "name": "GEN_Alok_Mod",
+    "withdrawal": 1000,
+    "kills": 14,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 711,
+    "name": "RX_DarkKnight",
+    "withdrawal": 500,
+    "kills": 7,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 712,
+    "name": "Clutch_Best",
+    "withdrawal": 1600,
+    "kills": 7,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 713,
+    "name": "FIRE_Predator_Prime",
+    "withdrawal": 200,
+    "kills": 9,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 714,
+    "name": "APEX_Blade",
+    "withdrawal": 1100,
+    "kills": 21,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 715,
+    "name": "KR_Hunter",
+    "withdrawal": 400,
+    "kills": 10,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 716,
+    "name": "OG_Commander_77",
+    "withdrawal": 1300,
+    "kills": 15,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 717,
+    "name": "100T_BooyahKing_King",
+    "withdrawal": 300,
+    "kills": 5,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 718,
+    "name": "Dynamo_07",
+    "withdrawal": 600,
+    "kills": 10,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 719,
+    "name": "LNX_Titan",
+    "withdrawal": 300,
+    "kills": 22,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 720,
+    "name": "FNTC_SilentAim",
+    "withdrawal": 2200,
+    "kills": 22,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 721,
+    "name": "FNTC_Tornado",
+    "withdrawal": 200,
+    "kills": 23,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 722,
+    "name": "Slayer_God",
+    "withdrawal": 2800,
+    "kills": 19,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 723,
+    "name": "GEN_Slayer_33",
+    "withdrawal": 2500,
+    "kills": 12,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 724,
+    "name": "SYN_Lightning_4v4",
+    "withdrawal": 2500,
+    "kills": 19,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 725,
+    "name": "SYN_Draco_X",
+    "withdrawal": 3000,
+    "kills": 15,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 726,
+    "name": "Vortex_92",
+    "withdrawal": 1000,
+    "kills": 8,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 727,
+    "name": "Assassin_671",
+    "withdrawal": 1200,
+    "kills": 6,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 728,
+    "name": "VALOR_IronFist_Rush",
+    "withdrawal": 2000,
+    "kills": 10,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 729,
+    "name": "DeathWish_Boss",
+    "withdrawal": 800,
+    "kills": 21,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 730,
+    "name": "SOUL_FireLord",
+    "withdrawal": 1100,
+    "kills": 8,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 731,
+    "name": "EVOS_Slayer_GG",
+    "withdrawal": 1200,
+    "kills": 5,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 732,
+    "name": "NRG_Matrix",
+    "withdrawal": 1000,
+    "kills": 13,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 733,
+    "name": "DRX_Flick",
+    "withdrawal": 500,
+    "kills": 15,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 734,
+    "name": "LNX_Pulse",
+    "withdrawal": 2500,
+    "kills": 9,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 735,
+    "name": "RRQ_Matrix_33",
+    "withdrawal": 1200,
+    "kills": 18,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 736,
+    "name": "NX_Woodpecker_Top",
+    "withdrawal": 2000,
+    "kills": 17,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 737,
+    "name": "FNTC_Rogue",
+    "withdrawal": 700,
+    "kills": 10,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 738,
+    "name": "Echo_Ultra",
+    "withdrawal": 2200,
+    "kills": 17,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 739,
+    "name": "GEN_Enforcer",
+    "withdrawal": 600,
+    "kills": 6,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 740,
+    "name": "RAID_RedDot_Master",
+    "withdrawal": 1200,
+    "kills": 16,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 741,
+    "name": "KR_Echo_GG",
+    "withdrawal": 800,
+    "kills": 10,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 742,
+    "name": "NEO_Commander",
+    "withdrawal": 1600,
+    "kills": 13,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 743,
+    "name": "Beast_452",
+    "withdrawal": 2500,
+    "kills": 12,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 744,
+    "name": "Nova_Mod",
+    "withdrawal": 1600,
+    "kills": 9,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 745,
+    "name": "WLR_Booyah_Mod",
+    "withdrawal": 2000,
+    "kills": 18,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 746,
+    "name": "Overlord_399",
+    "withdrawal": 750,
+    "kills": 8,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 747,
+    "name": "VIPER_SquadLead",
+    "withdrawal": 3000,
+    "kills": 6,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 748,
+    "name": "Assassin_VIP",
+    "withdrawal": 3000,
+    "kills": 16,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 749,
+    "name": "VX_Phoenix_88",
+    "withdrawal": 900,
+    "kills": 12,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 750,
+    "name": "LNX_Scope_Master",
+    "withdrawal": 4000,
+    "kills": 14,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 751,
+    "name": "VFX_Nova",
+    "withdrawal": 600,
+    "kills": 11,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 752,
+    "name": "BLCK_RedDot",
+    "withdrawal": 1200,
+    "kills": 5,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 753,
+    "name": "LNX_AwmKing",
+    "withdrawal": 1500,
+    "kills": 13,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 754,
+    "name": "HYDRA_Inferno",
+    "withdrawal": 1400,
+    "kills": 20,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 755,
+    "name": "CYBER_Matrix_GG",
+    "withdrawal": 1000,
+    "kills": 15,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 756,
+    "name": "TSM_Immortal",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 757,
+    "name": "GODL_Dynamo",
+    "withdrawal": 500,
+    "kills": 15,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 758,
+    "name": "Reflex_Max",
+    "withdrawal": 1300,
+    "kills": 14,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 759,
+    "name": "WLR_Chaos",
+    "withdrawal": 700,
+    "kills": 10,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 760,
+    "name": "VIPER_Gladiator_Win",
+    "withdrawal": 3500,
+    "kills": 5,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 761,
+    "name": "TL_Blaster_Zone",
+    "withdrawal": 600,
+    "kills": 20,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 762,
+    "name": "C9_DarkKnight",
+    "withdrawal": 1100,
+    "kills": 11,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 763,
+    "name": "SYN_Samurai",
+    "withdrawal": 2800,
+    "kills": 21,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 764,
+    "name": "NEO_Inferno",
+    "withdrawal": 3500,
+    "kills": 14,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 765,
+    "name": "Goliath_Boss",
+    "withdrawal": 3000,
+    "kills": 6,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 766,
+    "name": "BLCK_Assassin",
+    "withdrawal": 2200,
+    "kills": 14,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 767,
+    "name": "OG_OneTap",
+    "withdrawal": 3500,
+    "kills": 5,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 768,
+    "name": "Ronin_Prime",
+    "withdrawal": 700,
+    "kills": 6,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 769,
+    "name": "FIRE_Flash",
+    "withdrawal": 3000,
+    "kills": 16,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 770,
+    "name": "WLR_ClashKing_007",
+    "withdrawal": 600,
+    "kills": 13,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 771,
+    "name": "DARK_Immortal_Kill",
+    "withdrawal": 300,
+    "kills": 7,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 772,
+    "name": "CYBER_DeathWish_X",
+    "withdrawal": 200,
+    "kills": 21,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 773,
+    "name": "RRQ_Rogue",
+    "withdrawal": 1400,
+    "kills": 17,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 774,
+    "name": "HYDRA_Hazard",
+    "withdrawal": 600,
+    "kills": 19,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 775,
+    "name": "APEX_Beast_07",
+    "withdrawal": 1400,
+    "kills": 12,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 776,
+    "name": "GEN_Knight_007",
+    "withdrawal": 1100,
+    "kills": 13,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 777,
+    "name": "NOVA_Flick_Core",
+    "withdrawal": 1100,
+    "kills": 12,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 778,
+    "name": "FIRE_FrostByte",
+    "withdrawal": 200,
+    "kills": 20,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 779,
+    "name": "Stalker_Prime",
+    "withdrawal": 1200,
+    "kills": 8,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 780,
+    "name": "VIPER_Wukong_Prime",
+    "withdrawal": 5000,
+    "kills": 22,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 781,
+    "name": "NX_Sniper_99",
+    "withdrawal": 900,
+    "kills": 20,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 782,
+    "name": "DARK_Enforcer_V2",
+    "withdrawal": 800,
+    "kills": 22,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 783,
+    "name": "EVOS_M82B_24",
+    "withdrawal": 200,
+    "kills": 10,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 784,
+    "name": "SEN_Goliath_Fire",
+    "withdrawal": 1400,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 785,
+    "name": "NX_Venom_VIP",
+    "withdrawal": 400,
+    "kills": 9,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 786,
+    "name": "PRX_SilentAim_01",
+    "withdrawal": 3500,
+    "kills": 16,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 787,
+    "name": "Tornado_10",
+    "withdrawal": 2800,
+    "kills": 6,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 788,
+    "name": "TSM_IronFist",
+    "withdrawal": 1200,
+    "kills": 21,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 789,
+    "name": "Woodpecker_815",
+    "withdrawal": 200,
+    "kills": 14,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 790,
+    "name": "Phantom_99",
+    "withdrawal": 200,
+    "kills": 19,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 791,
+    "name": "RX_Overlord_Max",
+    "withdrawal": 3000,
+    "kills": 17,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 792,
+    "name": "BLCK_NightRider_X",
+    "withdrawal": 500,
+    "kills": 20,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 793,
+    "name": "TL_OneTap",
+    "withdrawal": 1500,
+    "kills": 5,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 794,
+    "name": "TL_Slayer_Win",
+    "withdrawal": 1800,
+    "kills": 13,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 795,
+    "name": "Viper_364",
+    "withdrawal": 1600,
+    "kills": 10,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 796,
+    "name": "VALOR_Blade_77",
+    "withdrawal": 800,
+    "kills": 23,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 797,
+    "name": "Striker_455",
+    "withdrawal": 2000,
+    "kills": 13,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 798,
+    "name": "GlooGod_X",
+    "withdrawal": 4000,
+    "kills": 12,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 799,
+    "name": "NX_Cobra_Max",
+    "withdrawal": 1100,
+    "kills": 6,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 800,
+    "name": "DARK_Trooper_55",
+    "withdrawal": 4000,
+    "kills": 7,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 801,
+    "name": "QuickScope_389",
+    "withdrawal": 1500,
+    "kills": 19,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 802,
+    "name": "NOVA_Glitch",
+    "withdrawal": 3500,
+    "kills": 23,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 803,
+    "name": "Rebel_120",
+    "withdrawal": 800,
+    "kills": 7,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 804,
+    "name": "APEX_DarkKnight",
+    "withdrawal": 200,
+    "kills": 6,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 805,
+    "name": "BLCK_GlooGod_GG",
+    "withdrawal": 1800,
+    "kills": 9,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 806,
+    "name": "SK_Scope",
+    "withdrawal": 600,
+    "kills": 20,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 807,
+    "name": "Chaos_Zero",
+    "withdrawal": 4000,
+    "kills": 8,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 808,
+    "name": "Blaze_302",
+    "withdrawal": 1100,
+    "kills": 21,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 809,
+    "name": "RAID_Blaster_King",
+    "withdrawal": 5000,
+    "kills": 6,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 810,
+    "name": "VIPER_Tornado_7",
+    "withdrawal": 3000,
+    "kills": 22,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 811,
+    "name": "Glitch_69",
+    "withdrawal": 700,
+    "kills": 7,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 812,
+    "name": "Blaze_V2",
+    "withdrawal": 500,
+    "kills": 11,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 813,
+    "name": "CYBER_M82B_Fire",
+    "withdrawal": 1200,
+    "kills": 9,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 814,
+    "name": "Woodpecker_King",
+    "withdrawal": 1600,
+    "kills": 18,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 815,
+    "name": "Enforcer_Sniper",
+    "withdrawal": 600,
+    "kills": 10,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 816,
+    "name": "SYN_Enforcer_7",
+    "withdrawal": 1000,
+    "kills": 21,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 817,
+    "name": "KR_Volt_Zero",
+    "withdrawal": 900,
+    "kills": 8,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 818,
+    "name": "SYN_Predator_One",
+    "withdrawal": 700,
+    "kills": 12,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 819,
+    "name": "TL_Raptor",
+    "withdrawal": 1500,
+    "kills": 20,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 820,
+    "name": "SK_PhantomX",
+    "withdrawal": 2000,
+    "kills": 20,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 821,
+    "name": "BLCK_Shifter",
+    "withdrawal": 1400,
+    "kills": 12,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 822,
+    "name": "Eclipse_856",
+    "withdrawal": 4000,
+    "kills": 11,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 823,
+    "name": "Havoc_664",
+    "withdrawal": 4000,
+    "kills": 7,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 824,
+    "name": "VIPER_IronFist",
+    "withdrawal": 900,
+    "kills": 11,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 825,
+    "name": "VFX_Samurai_Ace",
+    "withdrawal": 2000,
+    "kills": 7,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 826,
+    "name": "VX_CyberWolf",
+    "withdrawal": 1800,
+    "kills": 10,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 827,
+    "name": "Commander_VIP",
+    "withdrawal": 1600,
+    "kills": 22,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 828,
+    "name": "EXG_Crusher_Mod",
+    "withdrawal": 1300,
+    "kills": 11,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 829,
+    "name": "DARK_Frost_9",
+    "withdrawal": 1000,
+    "kills": 10,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 830,
+    "name": "SOUL_Commander_One",
+    "withdrawal": 2500,
+    "kills": 22,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 831,
+    "name": "VX_OneTap",
+    "withdrawal": 1100,
+    "kills": 14,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 832,
+    "name": "VX_Shifter_Live",
+    "withdrawal": 200,
+    "kills": 18,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 833,
+    "name": "OG_Trooper_Mod",
+    "withdrawal": 1100,
+    "kills": 22,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 834,
+    "name": "VIPER_Zone",
+    "withdrawal": 1600,
+    "kills": 15,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 835,
+    "name": "Phoenix_Max",
+    "withdrawal": 4000,
+    "kills": 10,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 836,
+    "name": "TL_Wraith_Prime",
+    "withdrawal": 5000,
+    "kills": 22,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 837,
+    "name": "GODL_QuickScope",
+    "withdrawal": 3000,
+    "kills": 9,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 838,
+    "name": "RAID_Krono_9",
+    "withdrawal": 300,
+    "kills": 21,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 839,
+    "name": "Bullet_817",
+    "withdrawal": 500,
+    "kills": 16,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 840,
+    "name": "Venom_Top",
+    "withdrawal": 200,
+    "kills": 18,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 841,
+    "name": "VX_Specter",
+    "withdrawal": 4000,
+    "kills": 7,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 842,
+    "name": "SYN_Drop",
+    "withdrawal": 1200,
+    "kills": 15,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 843,
+    "name": "SYN_Sniper_Drop",
+    "withdrawal": 2200,
+    "kills": 5,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 844,
+    "name": "FNC_Nova",
+    "withdrawal": 3500,
+    "kills": 17,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 845,
+    "name": "Specter_Prime",
+    "withdrawal": 300,
+    "kills": 15,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 846,
+    "name": "Blade_7",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 847,
+    "name": "NightRider_FF",
+    "withdrawal": 400,
+    "kills": 20,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 848,
+    "name": "LNX_Striker",
+    "withdrawal": 3000,
+    "kills": 18,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 849,
+    "name": "100T_Frost_44",
+    "withdrawal": 200,
+    "kills": 8,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 850,
+    "name": "Venom_24",
+    "withdrawal": 700,
+    "kills": 5,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 851,
+    "name": "100T_OneTap",
+    "withdrawal": 1600,
+    "kills": 11,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 852,
+    "name": "Apex_914",
+    "withdrawal": 1600,
+    "kills": 6,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 853,
+    "name": "FNC_Goliath_One",
+    "withdrawal": 200,
+    "kills": 19,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 854,
+    "name": "CYBER_Hayato",
+    "withdrawal": 400,
+    "kills": 18,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 855,
+    "name": "Scope_7",
+    "withdrawal": 500,
+    "kills": 12,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 856,
+    "name": "CyberWolf_486",
+    "withdrawal": 900,
+    "kills": 23,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 857,
+    "name": "FNC_Reaper",
+    "withdrawal": 3500,
+    "kills": 22,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 858,
+    "name": "KR_Thunder",
+    "withdrawal": 1200,
+    "kills": 7,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 859,
+    "name": "Goliath_13",
+    "withdrawal": 600,
+    "kills": 19,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 860,
+    "name": "BooyahKing_Sniper",
+    "withdrawal": 3500,
+    "kills": 17,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 861,
+    "name": "KR_Titan",
+    "withdrawal": 750,
+    "kills": 9,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 862,
+    "name": "FNTC_RedDot_GG",
+    "withdrawal": 5000,
+    "kills": 13,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 863,
+    "name": "Cobra_73",
+    "withdrawal": 4000,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 864,
+    "name": "PhantomX_Zone",
+    "withdrawal": 2000,
+    "kills": 8,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 865,
+    "name": "Slayer_911",
+    "withdrawal": 1600,
+    "kills": 14,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 866,
+    "name": "TSM_Bullet",
+    "withdrawal": 2800,
+    "kills": 15,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 867,
+    "name": "OR_Dynamo_01",
+    "withdrawal": 600,
+    "kills": 12,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 868,
+    "name": "Vortex_464",
+    "withdrawal": 600,
+    "kills": 22,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 869,
+    "name": "Booyah_Zone",
+    "withdrawal": 3500,
+    "kills": 20,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 870,
+    "name": "TSM_Zenith_99",
+    "withdrawal": 1200,
+    "kills": 13,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 871,
+    "name": "LNX_Blaster_GG",
+    "withdrawal": 1800,
+    "kills": 17,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 872,
+    "name": "RRQ_Bullet_Zone",
+    "withdrawal": 2800,
+    "kills": 9,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 873,
+    "name": "SYN_Blade",
+    "withdrawal": 3500,
+    "kills": 8,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 874,
+    "name": "Viper_Zero",
+    "withdrawal": 1400,
+    "kills": 11,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 875,
+    "name": "PRX_Inferno_77",
+    "withdrawal": 1000,
+    "kills": 11,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 876,
+    "name": "WLR_Predator_God",
+    "withdrawal": 1400,
+    "kills": 6,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 877,
+    "name": "NX_Scout_Boss",
+    "withdrawal": 1100,
+    "kills": 7,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 878,
+    "name": "Raven_351",
+    "withdrawal": 1600,
+    "kills": 11,
+    "event": "Bermuda Squad Bloodbath"
+  },
+  {
+    "id": 879,
+    "name": "Headshot_Clutch",
+    "withdrawal": 1000,
+    "kills": 16,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 880,
+    "name": "Woodpecker_55",
+    "withdrawal": 800,
+    "kills": 5,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 881,
+    "name": "CYBER_Zenith_9",
+    "withdrawal": 2200,
+    "kills": 22,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 882,
+    "name": "TSM_SquadLead",
+    "withdrawal": 3500,
+    "kills": 9,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 883,
+    "name": "Striker_356",
+    "withdrawal": 600,
+    "kills": 11,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 884,
+    "name": "C9_Alok_Rush",
+    "withdrawal": 1000,
+    "kills": 20,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 885,
+    "name": "VALOR_RedDot_Sniper",
+    "withdrawal": 2000,
+    "kills": 23,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 886,
+    "name": "Specter_770",
+    "withdrawal": 5000,
+    "kills": 12,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 887,
+    "name": "NX_Thunder_One",
+    "withdrawal": 1100,
+    "kills": 14,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 888,
+    "name": "NEO_Glitch_88",
+    "withdrawal": 750,
+    "kills": 8,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 889,
+    "name": "FIRE_Frag_OP",
+    "withdrawal": 1400,
+    "kills": 16,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 890,
+    "name": "Raptor_Live",
+    "withdrawal": 500,
+    "kills": 13,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 891,
+    "name": "DRX_Clutch_99",
+    "withdrawal": 2500,
+    "kills": 12,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 892,
+    "name": "IronFist_726",
+    "withdrawal": 700,
+    "kills": 22,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 893,
+    "name": "Goliath_692",
+    "withdrawal": 600,
+    "kills": 19,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 894,
+    "name": "NEO_Shadow_Core",
+    "withdrawal": 1400,
+    "kills": 13,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 895,
+    "name": "Lightning_282",
+    "withdrawal": 2500,
+    "kills": 10,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 896,
+    "name": "NightRider_Sniper",
+    "withdrawal": 300,
+    "kills": 8,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 897,
+    "name": "Phoenix_Pro",
+    "withdrawal": 2000,
+    "kills": 13,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 898,
+    "name": "SYN_Rusher",
+    "withdrawal": 400,
+    "kills": 16,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 899,
+    "name": "WLR_Demon_69",
+    "withdrawal": 700,
+    "kills": 10,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 900,
+    "name": "SoloWolf_Zero",
+    "withdrawal": 2000,
+    "kills": 14,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 901,
+    "name": "C9_NightRider",
+    "withdrawal": 3000,
+    "kills": 9,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 902,
+    "name": "NRG_Enforcer",
+    "withdrawal": 1100,
+    "kills": 16,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 903,
+    "name": "CYBER_Vanguard_007",
+    "withdrawal": 1500,
+    "kills": 20,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 904,
+    "name": "C9_Thunder",
+    "withdrawal": 1800,
+    "kills": 14,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 905,
+    "name": "DARK_Outlaw_YT",
+    "withdrawal": 4000,
+    "kills": 21,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 906,
+    "name": "FNC_Lightning",
+    "withdrawal": 5000,
+    "kills": 13,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 907,
+    "name": "Ranger_314",
+    "withdrawal": 750,
+    "kills": 9,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 908,
+    "name": "StrikerX_703",
+    "withdrawal": 600,
+    "kills": 13,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 909,
+    "name": "PRX_Airdrop_Best",
+    "withdrawal": 1300,
+    "kills": 14,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 910,
+    "name": "Storm_732",
+    "withdrawal": 5000,
+    "kills": 18,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 911,
+    "name": "AwmKing_188",
+    "withdrawal": 2000,
+    "kills": 11,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 912,
+    "name": "100T_Zero",
+    "withdrawal": 1600,
+    "kills": 21,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 913,
+    "name": "GODL_GlooGod",
+    "withdrawal": 800,
+    "kills": 5,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 914,
+    "name": "Static_968",
+    "withdrawal": 1200,
+    "kills": 14,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 915,
+    "name": "PRX_Hayato",
+    "withdrawal": 3000,
+    "kills": 11,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 916,
+    "name": "EXG_Glitch_Clutch",
+    "withdrawal": 900,
+    "kills": 8,
+    "event": "Nexterra Zone Dominator"
+  },
+  {
+    "id": 917,
+    "name": "APEX_Crate",
+    "withdrawal": 2000,
+    "kills": 21,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 918,
+    "name": "GlooGod_EX",
+    "withdrawal": 1200,
+    "kills": 18,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 919,
+    "name": "Enforcer_Prime",
+    "withdrawal": 2200,
+    "kills": 19,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 920,
+    "name": "SilentAim_77",
+    "withdrawal": 2000,
+    "kills": 20,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 921,
+    "name": "VFX_Zenith_44",
+    "withdrawal": 1400,
+    "kills": 14,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 922,
+    "name": "Beast_193",
+    "withdrawal": 1200,
+    "kills": 8,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 923,
+    "name": "Zero_427",
+    "withdrawal": 1800,
+    "kills": 8,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 924,
+    "name": "Headshot_83",
+    "withdrawal": 1800,
+    "kills": 14,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 925,
+    "name": "NX_AimGod",
+    "withdrawal": 750,
+    "kills": 22,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 926,
+    "name": "RRQ_Inferno",
+    "withdrawal": 2000,
+    "kills": 9,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 927,
+    "name": "NEO_Gladiator_Ace",
+    "withdrawal": 1200,
+    "kills": 5,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 928,
+    "name": "VALOR_Apex_OP",
+    "withdrawal": 5000,
+    "kills": 14,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 929,
+    "name": "ClashKing_224",
+    "withdrawal": 2800,
+    "kills": 5,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 930,
+    "name": "EVOS_Hunter",
+    "withdrawal": 300,
+    "kills": 16,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 931,
+    "name": "FNC_Booyah_44",
+    "withdrawal": 1300,
+    "kills": 23,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 932,
+    "name": "ZETA_Booyah",
+    "withdrawal": 3500,
+    "kills": 7,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 933,
+    "name": "WLR_Woodpecker",
+    "withdrawal": 1300,
+    "kills": 11,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 934,
+    "name": "VALOR_Stalker_01",
+    "withdrawal": 1800,
+    "kills": 23,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 935,
+    "name": "BLCK_Rebel",
+    "withdrawal": 700,
+    "kills": 9,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 936,
+    "name": "OG_Thunder",
+    "withdrawal": 1300,
+    "kills": 19,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 937,
+    "name": "DRX_Ghost",
+    "withdrawal": 2000,
+    "kills": 15,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 938,
+    "name": "OG_DarkKnight_FF",
+    "withdrawal": 1600,
+    "kills": 5,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 939,
+    "name": "RedDot_V2",
+    "withdrawal": 1000,
+    "kills": 8,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 940,
+    "name": "APEX_Commander_VIP",
+    "withdrawal": 750,
+    "kills": 7,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 941,
+    "name": "Dynamo_67",
+    "withdrawal": 3500,
+    "kills": 11,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 942,
+    "name": "Woodpecker_517",
+    "withdrawal": 900,
+    "kills": 23,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 943,
+    "name": "NOVA_Frost",
+    "withdrawal": 800,
+    "kills": 19,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 944,
+    "name": "EVOS_Static",
+    "withdrawal": 1500,
+    "kills": 7,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 945,
+    "name": "Goliath_Master",
+    "withdrawal": 200,
+    "kills": 22,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 946,
+    "name": "TSM_Rogue",
+    "withdrawal": 700,
+    "kills": 15,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 947,
+    "name": "ClashKing_55",
+    "withdrawal": 1800,
+    "kills": 20,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 948,
+    "name": "VALOR_DeathWish",
+    "withdrawal": 750,
+    "kills": 20,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 949,
+    "name": "Stalker_997",
+    "withdrawal": 1100,
+    "kills": 21,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 950,
+    "name": "Vortex_OP",
+    "withdrawal": 1600,
+    "kills": 7,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 951,
+    "name": "Dynamo_99",
+    "withdrawal": 1800,
+    "kills": 10,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 952,
+    "name": "FNC_Sniper",
+    "withdrawal": 2800,
+    "kills": 7,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 953,
+    "name": "Bullet_Kill",
+    "withdrawal": 300,
+    "kills": 17,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 954,
+    "name": "LNX_Gladiator_GG",
+    "withdrawal": 4000,
+    "kills": 9,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 955,
+    "name": "OneTap_13",
+    "withdrawal": 1000,
+    "kills": 11,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 956,
+    "name": "Predator_007",
+    "withdrawal": 1100,
+    "kills": 15,
+    "event": "Purgatory Clash Elite"
+  },
+  {
+    "id": 957,
+    "name": "RRQ_Blaze_Fire",
+    "withdrawal": 700,
+    "kills": 6,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 958,
+    "name": "HYDRA_PhantomX_88",
+    "withdrawal": 800,
+    "kills": 14,
+    "event": "Bermuda One-Tap Masters"
+  },
+  {
+    "id": 959,
+    "name": "KR_Zenith_Prime",
+    "withdrawal": 800,
+    "kills": 9,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 960,
+    "name": "BloodHound_7",
+    "withdrawal": 4000,
+    "kills": 19,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 961,
+    "name": "APEX_Rebel",
+    "withdrawal": 700,
+    "kills": 16,
+    "event": "Bermuda Ranked Rush"
+  },
+  {
+    "id": 962,
+    "name": "VIPER_Echo",
+    "withdrawal": 800,
+    "kills": 5,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 963,
+    "name": "DarkKnight_4v4",
+    "withdrawal": 700,
+    "kills": 17,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 964,
+    "name": "Enforcer_07",
+    "withdrawal": 1500,
+    "kills": 22,
+    "event": "Nexterra Midnight Rush"
+  },
+  {
+    "id": 965,
+    "name": "SK_Enforcer_YT",
+    "withdrawal": 1400,
+    "kills": 15,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 966,
+    "name": "Goliath_24",
+    "withdrawal": 800,
+    "kills": 12,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 967,
+    "name": "FIRE_Commander",
+    "withdrawal": 500,
+    "kills": 11,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 968,
+    "name": "Ghost_44",
+    "withdrawal": 500,
+    "kills": 10,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 969,
+    "name": "DeathWish_Headshot",
+    "withdrawal": 1500,
+    "kills": 6,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 970,
+    "name": "FNTC_Dynamo",
+    "withdrawal": 500,
+    "kills": 13,
+    "event": "Kalahari Survival Point League"
+  },
+  {
+    "id": 971,
+    "name": "EVOS_Crate",
+    "withdrawal": 1800,
+    "kills": 20,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 972,
+    "name": "Knight_Kill",
+    "withdrawal": 1600,
+    "kills": 19,
+    "event": "Bermuda Remastered Solo"
+  },
+  {
+    "id": 973,
+    "name": "APEX_Zone",
+    "withdrawal": 300,
+    "kills": 9,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 974,
+    "name": "Wukong_657",
+    "withdrawal": 750,
+    "kills": 14,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 975,
+    "name": "FALCON_Draco",
+    "withdrawal": 900,
+    "kills": 6,
+    "event": "1v1 Iron Cage Duel"
+  },
+  {
+    "id": 976,
+    "name": "RRQ_Ghost",
+    "withdrawal": 2000,
+    "kills": 6,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 977,
+    "name": "Zenith_528",
+    "withdrawal": 1100,
+    "kills": 12,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 978,
+    "name": "Ronin_Master",
+    "withdrawal": 3500,
+    "kills": 5,
+    "event": "Alpine Squad Showdown"
+  },
+  {
+    "id": 979,
+    "name": "FALCON_SquadLead",
+    "withdrawal": 200,
+    "kills": 7,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 980,
+    "name": "Thunder_Master",
+    "withdrawal": 200,
+    "kills": 19,
+    "event": "Iron Cage Sniper Duel"
+  },
+  {
+    "id": 981,
+    "name": "Hayato_Pro",
+    "withdrawal": 5000,
+    "kills": 10,
+    "event": "Purgatory Squad Clash"
+  },
+  {
+    "id": 982,
+    "name": "VX_AimGod",
+    "withdrawal": 5000,
+    "kills": 12,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 983,
+    "name": "IronFist_889",
+    "withdrawal": 1800,
+    "kills": 15,
+    "event": "Kalahari Rush League"
+  },
+  {
+    "id": 984,
+    "name": "Echo_VIP",
+    "withdrawal": 400,
+    "kills": 18,
+    "event": "Clock Tower 4v4 Showdown"
+  },
+  {
+    "id": 985,
+    "name": "RAID_SilentAim_Elite",
+    "withdrawal": 900,
+    "kills": 8,
+    "event": "Kalahari Bounty Hunt"
+  },
+  {
+    "id": 986,
+    "name": "SOUL_Glitch_Live",
+    "withdrawal": 1500,
+    "kills": 21,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 987,
+    "name": "TSM_Tornado",
+    "withdrawal": 2500,
+    "kills": 13,
+    "event": "Nexterra Survival Run"
+  },
+  {
+    "id": 988,
+    "name": "VX_Mp40King_Fire",
+    "withdrawal": 2500,
+    "kills": 8,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 989,
+    "name": "SOUL_Storm_4v4",
+    "withdrawal": 750,
+    "kills": 23,
+    "event": "Clash Squad Pro League"
+  },
+  {
+    "id": 990,
+    "name": "WLR_Glitch_99",
+    "withdrawal": 1300,
+    "kills": 13,
+    "event": "Factory Roof 1v1 Duel"
+  },
+  {
+    "id": 991,
+    "name": "SEN_Drop",
+    "withdrawal": 900,
+    "kills": 8,
+    "event": "Clash Squad Elite #09"
+  },
+  {
+    "id": 992,
+    "name": "SEN_Booyah_Best",
+    "withdrawal": 900,
+    "kills": 15,
+    "event": "Clash Squad Strike #18"
+  },
+  {
+    "id": 993,
+    "name": "EVOS_Immortal_88",
+    "withdrawal": 900,
+    "kills": 15,
+    "event": "Bermuda Grand Masters"
+  },
+  {
+    "id": 994,
+    "name": "SEN_Matrix_24",
+    "withdrawal": 2000,
+    "kills": 12,
+    "event": "Bermuda Bounty Hunter #22"
+  },
+  {
+    "id": 995,
+    "name": "VIPER_Outlaw_X",
+    "withdrawal": 300,
+    "kills": 21,
+    "event": "Alpine Frostbite Cup"
+  },
+  {
+    "id": 996,
+    "name": "NRG_Wukong_God",
+    "withdrawal": 900,
+    "kills": 20,
+    "event": "Purgatory Solo High-Roller"
+  },
+  {
+    "id": 997,
+    "name": "WLR_Immortal_Rush",
+    "withdrawal": 700,
+    "kills": 9,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 998,
+    "name": "FALCON_Bullet",
+    "withdrawal": 5000,
+    "kills": 9,
+    "event": "Clash Squad Ranked #42"
+  },
+  {
+    "id": 999,
+    "name": "BooyahKing_405",
+    "withdrawal": 2800,
+    "kills": 23,
+    "event": "Purgatory Bounty Royale"
+  },
+  {
+    "id": 1000,
+    "name": "SoloWolf_479",
+    "withdrawal": 900,
+    "kills": 8,
+    "event": "Kalahari Rush League"
+  }
+]

@@ -1,0 +1,439 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ----------------------------------------------------
+// ENUMS
+// ----------------------------------------------------
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  BANNED
+}
+
+enum GameStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum TeamType {
+  SOLO
+  DUO
+  SQUAD
+}
+
+enum MatchStatus {
+  DRAFT
+  UPCOMING
+  ONGOING
+  RESULTED
+  CANCELLED
+  SUSPENDED
+}
+
+enum SlotStatus {
+  AVAILABLE
+  RESERVED
+  PAYMENT_PENDING
+  OCCUPIED
+  EXPIRED
+}
+
+enum JoiningStatus {
+  PENDING_PAYMENT
+  CONFIRMED
+  CANCELLED
+  REFUND_PENDING
+  REFUNDED
+}
+
+enum PaymentReferenceType {
+  MATCH_JOINING
+  WALLET_TOPUP
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCESS
+  FAILED
+  EXPIRED
+  CANCELLED
+}
+
+enum RefundStatus {
+  REFUND_PENDING
+  REFUNDED
+  REFUND_FAILED
+}
+
+enum TransactionType {
+  TOURNAMENT_ENTRY
+  PRIZE_WIN
+  REFUND
+  WITHDRAWAL
+  ADJUSTMENT
+}
+
+enum TransactionStatus {
+  PENDING
+  COMPLETED
+  FAILED
+}
+
+enum ResultStatus {
+  DRAFT
+  PUBLISHED
+}
+
+enum NotificationType {
+  MATCH_ALERT
+  ROOM_CREDENTIALS
+  PAYMENT
+  RESULT
+  SYSTEM
+  ANNOUNCEMENT
+}
+
+// ----------------------------------------------------
+// MODELS
+// ----------------------------------------------------
+
+model User {
+  id           String      @id @default(uuid())
+  email        String      @unique
+  phone        String?     @unique
+  passwordHash String
+  username     String      @unique
+  fullName     String?
+  avatarUrl    String?
+  role         Role        @default(USER)
+  status       UserStatus  @default(ACTIVE)
+  gameUid      String?     // Free Fire In-Game UID
+  gameName     String?     // Free Fire In-Game Name (IGN)
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  refreshTokens      RefreshToken[]
+  wallet             Wallet?
+  joinings           Joining[]
+  slotsReserved      Slot[]              @relation("ReservedSlots")
+  notifications      Notification[]
+  auditLogs          AuditLog[]
+  resultPlayers      ResultPlayer[]
+  walletTransactions WalletTransaction[]
+
+  @@index([role, status])
+}
+
+model RefreshToken {
+  id         String   @id @default(uuid())
+  userId     String
+  token      String   @unique
+  deviceId   String?
+  deviceInfo String?
+  isRevoked  Boolean  @default(false)
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRevoked])
+}
+
+model Game {
+  id           String     @id @default(uuid())
+  slug         String     @unique
+  name         String
+  image        String
+  gameMode     String
+  playerCount  Int
+  status       GameStatus @default(ACTIVE)
+  displayOrder Int        @default(0)
+  badge        String?
+  metadata     Json?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  matches Match[]
+
+  @@index([status, displayOrder])
+}
+
+model Match {
+  id                          String      @id @default(uuid())
+  contestId                   String      @unique
+  bannerImage                 String
+  title                       String
+  matchType                   String      @default("CLASSIC_CUSTOM")
+  gameId                      String
+  gameMode                    String
+  teamType                    TeamType    @default(SOLO)
+  map                         String
+  status                      MatchStatus @default(DRAFT)
+  matchDate                   DateTime
+  matchTime                   String
+  registrationStart           DateTime
+  registrationEnd             DateTime
+  entryFee                    Decimal     @default(0) @db.Decimal(10, 2)
+  prizeAmount                 Decimal     @default(0) @db.Decimal(10, 2)
+  prizeType                   String      @default("CASH")
+  prizeDistribution           Json
+  totalSlots                  Int
+  filledSlots                 Int         @default(0)
+  perKillPrize                Decimal?    @db.Decimal(10, 2)
+  version                     String      @default("Mobile Only")
+  roomId                      String?
+  roomPassword                String?
+  roomCredentialsPublishedAt DateTime?
+  resultPublishedAt           DateTime?
+  createdAt                   DateTime    @default(now())
+  updatedAt                   DateTime    @updatedAt
+
+  game     Game         @relation(fields: [gameId], references: [id])
+  rules    MatchRule[]
+  slots    Slot[]
+  joinings Joining[]
+  result   MatchResult?
+
+  @@index([status, matchDate])
+  @@index([gameId, status])
+}
+
+model MatchRule {
+  id           String   @id @default(uuid())
+  matchId      String
+  ruleText     String
+  displayOrder Int      @default(0)
+  isActive     Boolean  @default(true)
+
+  match Match @relation(fields: [matchId], references: [id], onDelete: Cascade)
+
+  @@index([matchId, displayOrder])
+}
+
+model Slot {
+  id                   String     @id @default(uuid())
+  matchId              String
+  slotNumber           Int
+  teamNumber           Int
+  position             Int        @default(1)
+  status               SlotStatus @default(AVAILABLE)
+  reservedByUserId     String?
+  reservedAt           DateTime?
+  reservationExpiresAt DateTime?
+  version              Int        @default(0)
+  createdAt            DateTime   @default(now())
+  updatedAt            DateTime   @updatedAt
+
+  match          Match     @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  reservedByUser User?     @relation("ReservedSlots", fields: [reservedByUserId], references: [id])
+  joinings       Joining[]
+
+  @@unique([matchId, slotNumber])
+  @@index([matchId, status])
+  @@index([reservationExpiresAt])
+}
+
+model Joining {
+  id         String        @id @default(uuid())
+  matchId    String
+  userId     String
+  slotId     String
+  teamNumber Int           @default(1)
+  inGameName String
+  inGameId   String
+  status     JoiningStatus @default(PENDING_PAYMENT)
+  amountPaid Decimal       @default(0) @db.Decimal(10, 2)
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  match         Match          @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  slot          Slot           @relation(fields: [slotId], references: [id])
+  payments      Payment[]
+  resultPlayers ResultPlayer[]
+
+  @@index([matchId, status])
+  @@index([userId, status])
+}
+
+model Payment {
+  id                 String               @id @default(uuid())
+  orderId            String               @unique
+  userId             String
+  joiningId          String?
+  referenceType      PaymentReferenceType @default(MATCH_JOINING)
+  referenceId        String
+  amount             Decimal              @db.Decimal(10, 2)
+  currency           String               @default("INR")
+  paymentMethod      String?
+  status             PaymentStatus        @default(PENDING)
+  gatewayName        String               @default("CASHFREE")
+  gatewayReferenceId String?
+  idempotencyKey     String               @unique
+  rawWebhookPayload  Json?
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+
+  joining Joining? @relation(fields: [joiningId], references: [id])
+  refunds Refund[]
+
+  @@index([userId, status])
+  @@index([status, createdAt])
+}
+
+model Refund {
+  id              String       @id @default(uuid())
+  paymentId       String
+  userId          String
+  amount          Decimal      @db.Decimal(10, 2)
+  reason          String
+  status          RefundStatus @default(REFUND_PENDING)
+  gatewayRefundId String?
+  processedAt     DateTime?
+  createdAt       DateTime     @default(now())
+
+  payment Payment @relation(fields: [paymentId], references: [id])
+
+  @@index([userId, status])
+}
+
+model Wallet {
+  id             String   @id @default(uuid())
+  userId         String   @unique
+  balance        Decimal  @default(0) @db.Decimal(10, 2)
+  winningBalance Decimal  @default(0) @db.Decimal(10, 2)
+  depositBalance Decimal  @default(0) @db.Decimal(10, 2)
+  bonusBalance   Decimal  @default(0) @db.Decimal(10, 2)
+  currency       String   @default("INR")
+  updatedAt      DateTime @updatedAt
+
+  user         User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  transactions WalletTransaction[]
+}
+
+model WalletTransaction {
+  id             String            @id @default(uuid())
+  walletId       String
+  userId         String
+  type           TransactionType
+  amount         Decimal           @db.Decimal(10, 2)
+  balanceBefore  Decimal           @db.Decimal(10, 2)
+  balanceAfter   Decimal           @db.Decimal(10, 2)
+  referenceType  String
+  referenceId    String?
+  status         TransactionStatus @default(COMPLETED)
+  idempotencyKey String?           @unique
+  description    String
+  createdAt      DateTime          @default(now())
+
+  wallet Wallet @relation(fields: [walletId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([walletId, createdAt])
+  @@index([referenceType, referenceId])
+}
+
+model MatchResult {
+  id                 String       @id @default(uuid())
+  matchId            String       @unique
+  publishedByAdminId String
+  publishedAt        DateTime?
+  settledAt          DateTime?
+  summary            String?
+  status             ResultStatus @default(DRAFT)
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
+
+  match   Match          @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  players ResultPlayer[]
+
+  @@index([status, publishedAt])
+}
+
+model ResultPlayer {
+  id               String   @id @default(uuid())
+  matchResultId    String
+  userId           String?
+  joiningId        String?
+  inGameName       String
+  rank             Int
+  kills            Int      @default(0)
+  prizeAmount      Decimal  @default(0) @db.Decimal(10, 2)
+  killPrizeAmount  Decimal  @default(0) @db.Decimal(10, 2)
+  totalPrizeAmount Decimal  @default(0) @db.Decimal(10, 2)
+  isWinner         Boolean  @default(false)
+  createdAt        DateTime @default(now())
+
+  matchResult MatchResult @relation(fields: [matchResultId], references: [id], onDelete: Cascade)
+  user        User?       @relation(fields: [userId], references: [id])
+  joining     Joining?    @relation(fields: [joiningId], references: [id])
+
+  @@unique([matchResultId, rank])
+  @@index([userId])
+}
+
+model Notification {
+  id        String           @id @default(uuid())
+  userId    String?          // null means broadcast to all users
+  title     String
+  message   String
+  type      NotificationType @default(ANNOUNCEMENT)
+  isRead    Boolean          @default(false)
+  actionUrl String?
+  metadata  Json?
+  createdAt DateTime         @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead])
+  @@index([createdAt])
+}
+
+model Banner {
+  id           String   @id @default(uuid())
+  title        String
+  imageUrl     String
+  linkUrl      String?
+  displayOrder Int      @default(0)
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+
+  @@index([isActive, displayOrder])
+}
+
+model AppSetting {
+  key         String   @id
+  value       Json
+  description String?
+  updatedAt   DateTime @updatedAt
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  actorId    String
+  actorRole  String
+  action     String
+  entityType String
+  entityId   String
+  details    Json?
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+
+  user User @relation(fields: [actorId], references: [id])
+
+  @@index([entityType, entityId])
+  @@index([actorId, createdAt])
+}
