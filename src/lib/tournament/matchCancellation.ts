@@ -49,11 +49,15 @@ export class MatchCancellationService {
       throw new Error(`Match ${matchId} is already cancelled.`);
     }
 
-    // 1. Mark match as CANCELLED
-    await prisma.match.update({
-      where: { id: matchId },
+    // 1. Atomic Concurrency Lock: Ensure only ONE concurrent request can transition and trigger refunds
+    const lockResult = await prisma.match.updateMany({
+      where: { id: matchId, status: { not: MatchStatus.CANCELLED } },
       data: { status: MatchStatus.CANCELLED },
     });
+
+    if (lockResult.count === 0) {
+      throw new Error(`Match ${matchId} is already cancelled.`);
+    }
 
     const paymentService = getPaymentService();
     let totalRefunded = 0;
@@ -62,6 +66,15 @@ export class MatchCancellationService {
 
     // 2. Iterate through each confirmed joining and process gateway refund
     for (const joining of match.joinings) {
+      // Atomic joining status lock: prevents duplicate gateway refund calls if called concurrently
+      const joiningLock = await prisma.joining.updateMany({
+        where: { id: joining.id, status: JoiningStatus.CONFIRMED },
+        data: { status: JoiningStatus.REFUND_PENDING },
+      });
+      if (joiningLock.count === 0) {
+        continue;
+      }
+
       const payment = joining.payments[0];
       if (!payment) {
         failures.push({ joiningId: joining.id, error: 'No successful payment record found' });

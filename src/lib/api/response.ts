@@ -30,6 +30,10 @@ export class Api {
     return NextResponse.json(payload, { status });
   }
 
+  static created<T>(data: T, meta?: ApiResponseSuccess<T>['meta']) {
+    return this.success(data, meta, 201);
+  }
+
   static error(code: ErrorCode, message: string, details?: unknown, status = 400) {
     const payload: ApiResponseError = {
       success: false,

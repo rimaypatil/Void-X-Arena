@@ -27,8 +27,10 @@ export class PaymentAuditService {
     entityId: string;
     details?: Record<string, any>;
     ipAddress?: string | null;
+    tx?: any;
   }): Promise<void> {
-    const { event, actorId, actorRole = 'USER', entityId, details = {}, ipAddress } = params;
+    const { event, actorId, actorRole = 'USER', entityId, details = {}, ipAddress, tx } = params;
+    const dbClient = tx || prisma;
 
     // Sanitize details: strip sensitive fields
     const sanitizedDetails = { ...details };
@@ -39,7 +41,7 @@ export class PaymentAuditService {
     delete sanitizedDetails.authorization;
 
     try {
-      await prisma.auditLog.create({
+      await dbClient.auditLog.create({
         data: {
           action: event,
           actorId,

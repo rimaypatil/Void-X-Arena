@@ -2,6 +2,7 @@ import { NextRequest } from 'next/server';
 import { JwtService, TokenPayload } from './jwt';
 import { Api } from '../api/response';
 import { ErrorCodes } from '../api/errors';
+import { prisma } from '../db/prisma';
 
 export interface AuthenticatedUser {
   userId: string;
@@ -60,7 +61,7 @@ export class AuthMiddleware {
   }
 
   /**
-   * Enforces administrator privileges
+   * Enforces administrator privileges with real-time database status & role validation
    */
   static async requireAdmin(request: NextRequest): Promise<{ user: AuthenticatedUser | null; errorResponse?: ReturnType<typeof Api.forbidden> }> {
     const { user, errorResponse } = await this.authenticate(request);
@@ -68,13 +69,41 @@ export class AuthMiddleware {
       return { user: null, errorResponse: errorResponse as any };
     }
 
-    if (user.role !== 'ADMIN') {
+    // Authoritative real-time database lookup to prevent revoked/suspended admins from acting
+    const dbUser = await prisma.user.findUnique({
+      where: { id: user.userId },
+      select: { id: true, role: true, status: true, username: true, gameUid: true },
+    });
+
+    if (!dbUser) {
+      return {
+        user: null,
+        errorResponse: Api.unauthorized('Administrator account not found.') as any,
+      };
+    }
+
+    if (dbUser.status !== 'ACTIVE') {
+      return {
+        user: null,
+        errorResponse: Api.forbidden('Administrator account is suspended or banned.') as any,
+      };
+    }
+
+    if (dbUser.role !== 'ADMIN') {
       return {
         user: null,
         errorResponse: Api.forbidden('Administrative privileges required for this operation.'),
       };
     }
 
-    return { user };
+    return {
+      user: {
+        userId: dbUser.id,
+        role: dbUser.role,
+        username: dbUser.username,
+        gameUid: dbUser.gameUid,
+      },
+    };
   }
 }
+

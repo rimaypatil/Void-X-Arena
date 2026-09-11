@@ -1,8 +1,10 @@
+import { Suspense } from 'react';
 import type { Metadata, Viewport } from 'next';
 import { Inter, Outfit } from 'next/font/google';
 import './globals.css';
 import { siteConfig } from '@/config/site';
 import { CustomCursor } from '@/components/ui/CustomCursor';
+import { MobileAppShell } from '@/components/mobile/MobileAppShell';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -76,7 +78,9 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${outfit.variable} dark scroll-smooth`}>
       <body className="bg-void-900 text-void-100 font-sans antialiased min-h-screen selection:bg-purple-brand selection:text-white">
         <CustomCursor />
-        {children}
+        <Suspense fallback={null}>
+          <MobileAppShell>{children}</MobileAppShell>
+        </Suspense>
       </body>
     </html>
   );

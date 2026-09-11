@@ -96,6 +96,9 @@ export class SlotService {
     const expiresAt = new Date(now.getTime() + this.RESERVATION_WINDOW_MINUTES * 60 * 1000);
 
     return await prisma.$transaction(async (tx) => {
+      // 0. Serialize concurrent requests from the SAME user across multiple devices
+      await tx.$queryRaw`SELECT id FROM "User" WHERE id = ${userId} FOR UPDATE`;
+
       // 1. Check if user already has an active reservation or joining in this match
       const existingUserJoining = await tx.joining.findFirst({
         where: {
@@ -111,10 +114,16 @@ export class SlotService {
         }
         const activeSlot = await tx.slot.findUnique({ where: { id: existingUserJoining.slotId } });
         if (activeSlot && activeSlot.reservationExpiresAt && activeSlot.reservationExpiresAt > now) {
+          if (activeSlot.slotNumber === slotNumber) {
+            return {
+              success: true,
+              slot: activeSlot,
+              joining: existingUserJoining,
+            };
+          }
           return {
-            success: true,
-            slot: activeSlot,
-            joining: existingUserJoining,
+            success: false,
+            error: 'You already hold an active reservation for another slot in this match.',
           };
         }
       }
@@ -143,8 +152,8 @@ export class SlotService {
         return { success: false, error: 'SLOT_UNAVAILABLE' };
       }
 
-      // 3. Atomically claim the slot
-      const updatedSlot = await tx.slot.update({
+      // 3. Atomically claim the slot with optimistic lock
+      const updateResult = await tx.slot.updateMany({
         where: {
           id: slot.id,
           version: slot.version,
@@ -157,6 +166,13 @@ export class SlotService {
           version: { increment: 1 },
         },
       });
+
+      if (updateResult.count === 0) {
+        return { success: false, error: 'SLOT_UNAVAILABLE' };
+      }
+
+      const updatedSlot = await tx.slot.findUnique({ where: { id: slot.id } });
+      if (!updatedSlot) return { success: false, error: 'SLOT_UNAVAILABLE' };
 
       // 4. Create PENDING_PAYMENT Joining record
       const joining = await tx.joining.create({

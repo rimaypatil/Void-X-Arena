@@ -109,6 +109,7 @@ export class PaymentReconciliationService {
               received: verification.amount,
             },
             ipAddress,
+            tx,
           });
           return {
             success: false,
@@ -153,40 +154,39 @@ export class PaymentReconciliationService {
             where: { id: payment.joining.matchId },
             data: { filledSlots: occupiedCount },
           });
-        }
-
-        // Ensure wallet transaction ledger entry exists exactly once
-        const existingTxn = await tx.walletTransaction.findFirst({
-          where: {
-            userId: payment.userId,
-            referenceType: 'MATCH_JOINING',
-            referenceId: payment.joining?.matchId || orderId,
-            type: 'TOURNAMENT_ENTRY',
-          },
-        });
-
-        if (!existingTxn) {
-          const wallet = await tx.wallet.findUnique({
-            where: { userId: payment.userId },
-          });
-          if (wallet) {
-            const bal = Number(wallet.balance);
-            await tx.walletTransaction.create({
-              data: {
-                walletId: wallet.id,
+            // Ensure wallet transaction ledger entry exists exactly once
+            const existingTxn = await tx.walletTransaction.findFirst({
+              where: {
                 userId: payment.userId,
-                type: 'TOURNAMENT_ENTRY',
-                amount: Number(payment.amount),
-                balanceBefore: bal,
-                balanceAfter: bal,
                 referenceType: 'MATCH_JOINING',
-                referenceId: payment.joining?.matchId || orderId,
-                status: 'COMPLETED',
-                description: `Entry fee for ${payment.joining?.match?.title || 'Tournament'}`,
+                referenceId: payment.joining.matchId,
+                type: 'TOURNAMENT_ENTRY',
               },
             });
+
+            if (!existingTxn) {
+              const wallet = await tx.wallet.findUnique({
+                where: { userId: payment.userId },
+              });
+              if (wallet) {
+                const bal = Number(wallet.balance);
+                await tx.walletTransaction.create({
+                  data: {
+                    walletId: wallet.id,
+                    userId: payment.userId,
+                    type: 'TOURNAMENT_ENTRY',
+                    amount: Number(payment.amount),
+                    balanceBefore: bal,
+                    balanceAfter: bal,
+                    referenceType: 'MATCH_JOINING',
+                    referenceId: payment.joining.matchId,
+                    status: 'COMPLETED',
+                    description: `Entry fee for ${payment.joining.match?.title || 'Tournament'}`,
+                  },
+                });
+              }
+            }
           }
-        }
 
         await PaymentAuditService.log({
           event: 'PAYMENT_SUCCESS',
@@ -199,6 +199,7 @@ export class PaymentReconciliationService {
             amount: payment.amount,
           },
           ipAddress,
+          tx,
         });
 
         return {
@@ -247,6 +248,7 @@ export class PaymentReconciliationService {
           entityId: payment.id,
           details: { triggerSource, reason: verification.paymentStatus },
           ipAddress,
+          tx,
         });
 
         return {
