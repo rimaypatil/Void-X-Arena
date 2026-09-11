@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Flame, ChevronLeft, ChevronRight, ExternalLink, Pause, Play } from 'lucide-react';
+import { Flame, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 
 export interface BannerItem {
   id: string;
@@ -83,7 +83,7 @@ export const HeroCarousel: React.FC<{ initialBanners?: BannerItem[] }> = ({ init
     initialBanners && initialBanners.length > 0 ? initialBanners : DEFAULT_BANNERS
   );
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const [isPaused, setIsPaused] = useState<boolean>(false);
+  const [isHoveredOrTouched, setIsHoveredOrTouched] = useState<boolean>(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(false);
 
   // Touch Swipe tracking
@@ -150,18 +150,18 @@ export const HeroCarousel: React.FC<{ initialBanners?: BannerItem[] }> = ({ init
   useEffect(() => {
     clearAutoTimer();
 
-    if (!isPaused && !prefersReducedMotion && banners.length > 1) {
+    if (!isHoveredOrTouched && !prefersReducedMotion && banners.length > 1) {
       timerRef.current = setInterval(() => {
         handleNext();
       }, AUTO_SLIDE_INTERVAL);
     }
 
     return () => clearAutoTimer();
-  }, [isPaused, prefersReducedMotion, banners.length, handleNext, clearAutoTimer, currentIndex]);
+  }, [isHoveredOrTouched, prefersReducedMotion, banners.length, handleNext, clearAutoTimer, currentIndex]);
 
   // 5. Touch / Swipe Handlers
   const handleTouchStart = (e: React.TouchEvent) => {
-    setIsPaused(true);
+    setIsHoveredOrTouched(true);
     touchStartXRef.current = e.touches[0].clientX;
     touchEndXRef.current = null;
   };
@@ -186,7 +186,7 @@ export const HeroCarousel: React.FC<{ initialBanners?: BannerItem[] }> = ({ init
 
     touchStartXRef.current = null;
     touchEndXRef.current = null;
-    setIsPaused(false);
+    setIsHoveredOrTouched(false);
   };
 
   // 6. Keyboard Handlers
@@ -223,8 +223,8 @@ export const HeroCarousel: React.FC<{ initialBanners?: BannerItem[] }> = ({ init
       aria-label="Promotional Arena Banners"
       tabIndex={0}
       onKeyDown={handleKeyDown}
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
+      onMouseEnter={() => setIsHoveredOrTouched(true)}
+      onMouseLeave={() => setIsHoveredOrTouched(false)}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -310,32 +310,20 @@ export const HeroCarousel: React.FC<{ initialBanners?: BannerItem[] }> = ({ init
           <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
-        {/* Bottom Status Controls: Pagination Dots & Pause Indicator */}
-        <div className="absolute bottom-2.5 right-3.5 z-30 flex items-center gap-2">
-          {/* Pause / Play Toggle */}
-          <button
-            onClick={() => setIsPaused((prev) => !prev)}
-            aria-label={isPaused ? 'Resume Slideshow' : 'Pause Slideshow'}
-            className="carousel-control-btn p-1 rounded bg-void-950/70 text-void-400 hover:text-purple-bright transition-colors"
-          >
-            {isPaused ? <Play className="w-3 h-3" /> : <Pause className="w-3 h-3" />}
-          </button>
-
-          {/* Indicators / Dots */}
-          <div className="flex items-center gap-1">
-            {banners.map((b, idx) => (
-              <button
-                key={b.id}
-                onClick={() => goToSlide(idx)}
-                aria-label={`Go to slide ${idx + 1}`}
-                className={`carousel-control-btn h-1.5 rounded-full transition-all duration-300 ${
-                  idx === currentIndex
-                    ? 'w-5 bg-purple-brand shadow-purple-sm'
-                    : 'w-1.5 bg-void-600 hover:bg-void-400'
-                }`}
-              />
-            ))}
-          </div>
+        {/* Bottom Status Controls: Clean Pagination Indicators Only */}
+        <div className="absolute bottom-2.5 right-3.5 z-30 flex items-center gap-1">
+          {banners.map((b, idx) => (
+            <button
+              key={b.id}
+              onClick={() => goToSlide(idx)}
+              aria-label={`Go to slide ${idx + 1}`}
+              className={`carousel-control-btn h-1.5 rounded-full transition-all duration-300 ${
+                idx === currentIndex
+                  ? 'w-5 bg-purple-brand shadow-purple-sm'
+                  : 'w-1.5 bg-void-600 hover:bg-void-400'
+              }`}
+            />
+          ))}
         </div>
       </div>
     </div>
