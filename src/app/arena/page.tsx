@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Flame, Swords, Trophy, Users, Clock, AlertCircle, RefreshCw, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { HeroCarousel } from '@/components/arena/HeroCarousel';
 
 interface MatchItem {
   id: string;
@@ -66,30 +67,8 @@ export default function ArenaMatchesPage() {
 
   return (
     <div className="space-y-4">
-      {/* Featured Arena Banner */}
-      <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-purple-brand/25 via-void-850 to-void-900 border border-purple-brand/40 p-4 shadow-purple-sm">
-        <Image
-          src="/assets/images/freefire/esports.jpg"
-          alt="Free Fire Season 1 Championship"
-          fill
-          priority
-          sizes="(max-width: 768px) 100vw, 450px"
-          className="object-cover object-center filter brightness-[0.35] contrast-[1.1]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-void-950 via-void-900/70 to-transparent" />
-        <div className="relative z-10">
-          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-void-900/80 border border-purple-brand/50 text-[9px] font-display font-black text-purple-bright mb-1.5">
-            <Flame className="w-3 h-3 text-purple-bright" />
-            <span>SEASON 1 REGISTRATION</span>
-          </div>
-          <h2 className="font-display font-black text-base sm:text-lg text-void-100 uppercase tracking-tight leading-tight">
-            Free Fire Daily Cups
-          </h2>
-          <p className="text-[11px] text-void-300 mt-1 max-w-xs leading-relaxed">
-            Automated custom rooms, instant slot locking, and verified payouts.
-          </p>
-        </div>
-      </div>
+      {/* Featured Admin-Controlled Arena Banner Carousel */}
+      <HeroCarousel />
 
       {/* Filter Tabs */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">

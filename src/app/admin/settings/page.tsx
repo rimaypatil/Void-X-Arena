@@ -49,8 +49,20 @@ export default function AdminSettingsPage() {
   const [loadingBanners, setLoadingBanners] = useState(false);
   const [showBannerModal, setShowBannerModal] = useState(false);
   const [editingBanner, setEditingBanner] = useState<any | null>(null);
-  const [bannerForm, setBannerForm] = useState({
+  const [bannerForm, setBannerForm] = useState<{
+    title: string;
+    subtitle: string;
+    badge: string;
+    ctaText: string;
+    imageUrl: string;
+    linkUrl: string;
+    displayOrder: number;
+    isActive: boolean;
+  }>({
     title: '',
+    subtitle: '',
+    badge: '',
+    ctaText: '',
     imageUrl: '',
     linkUrl: '',
     displayOrder: 1,
@@ -183,6 +195,9 @@ export default function AdminSettingsPage() {
     setEditingBanner(null);
     setBannerForm({
       title: '',
+      subtitle: '',
+      badge: 'SEASON 1 REGISTRATION',
+      ctaText: 'Enter Arena',
       imageUrl: '/assets/images/freefire/esports.jpg',
       linkUrl: '/arena',
       displayOrder: banners.length + 1,
@@ -194,11 +209,14 @@ export default function AdminSettingsPage() {
   const handleOpenEditBanner = (b: any) => {
     setEditingBanner(b);
     setBannerForm({
-      title: b.title,
-      imageUrl: b.imageUrl,
+      title: b.title || '',
+      subtitle: b.subtitle || '',
+      badge: b.badge || '',
+      ctaText: b.ctaText || '',
+      imageUrl: b.imageUrl || '',
       linkUrl: b.linkUrl || '',
-      displayOrder: b.displayOrder,
-      isActive: b.isActive,
+      displayOrder: b.displayOrder ?? 1,
+      isActive: b.isActive ?? true,
     });
     setShowBannerModal(true);
   };
@@ -660,6 +678,47 @@ export default function AdminSettingsPage() {
 
               <div>
                 <label className="text-[11px] font-mono text-void-400 uppercase tracking-wider block mb-1">
+                  Subtitle / Description
+                </label>
+                <input
+                  type="text"
+                  value={bannerForm.subtitle}
+                  onChange={(e) => setBannerForm({ ...bannerForm, subtitle: e.target.value })}
+                  placeholder="e.g. Automated custom rooms, instant slot locking, and verified payouts."
+                  className="w-full bg-void-950 border border-void-700 rounded-xl px-4 py-2.5 text-sm text-void-100 font-sans focus:border-purple-brand outline-none"
+                />
+              </div>
+
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <label className="text-[11px] font-mono text-void-400 uppercase tracking-wider block mb-1">
+                    Badge / Tag Label
+                  </label>
+                  <input
+                    type="text"
+                    value={bannerForm.badge}
+                    onChange={(e) => setBannerForm({ ...bannerForm, badge: e.target.value })}
+                    placeholder="e.g. SEASON 1 REGISTRATION"
+                    className="w-full bg-void-950 border border-void-700 rounded-xl px-4 py-2.5 text-sm text-void-100 font-sans focus:border-purple-brand outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label className="text-[11px] font-mono text-void-400 uppercase tracking-wider block mb-1">
+                    CTA Button Text
+                  </label>
+                  <input
+                    type="text"
+                    value={bannerForm.ctaText}
+                    onChange={(e) => setBannerForm({ ...bannerForm, ctaText: e.target.value })}
+                    placeholder="e.g. Enter Arena"
+                    className="w-full bg-void-950 border border-void-700 rounded-xl px-4 py-2.5 text-sm text-void-100 font-sans focus:border-purple-brand outline-none"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="text-[11px] font-mono text-void-400 uppercase tracking-wider block mb-1">
                   Image URL / Asset Path *
                 </label>
                 <input
@@ -680,7 +739,7 @@ export default function AdminSettingsPage() {
                   type="text"
                   value={bannerForm.linkUrl}
                   onChange={(e) => setBannerForm({ ...bannerForm, linkUrl: e.target.value })}
-                  placeholder="e.g. /arena or /arena/tournaments"
+                  placeholder="e.g. /arena or /arena/wallet or /arena/results"
                   className="w-full bg-void-950 border border-void-700 rounded-xl px-4 py-2.5 text-sm text-void-100 font-sans focus:border-purple-brand outline-none"
                 />
               </div>

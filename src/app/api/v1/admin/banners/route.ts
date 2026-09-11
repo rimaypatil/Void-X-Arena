@@ -27,6 +27,9 @@ export async function POST(request: NextRequest) {
 
     const banner = await AdminSettingService.createBanner({
       title: body.title,
+      subtitle: body.subtitle,
+      badge: body.badge,
+      ctaText: body.ctaText,
       imageUrl: body.imageUrl,
       linkUrl: body.linkUrl,
       displayOrder: body.displayOrder,

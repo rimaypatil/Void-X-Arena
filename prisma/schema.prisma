@@ -405,6 +405,9 @@ model Notification {
 model Banner {
   id           String   @id @default(uuid())
   title        String
+  subtitle     String?
+  badge        String?
+  ctaText      String?
   imageUrl     String
   linkUrl      String?
   displayOrder Int      @default(0)

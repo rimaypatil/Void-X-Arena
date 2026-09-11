@@ -302,19 +302,81 @@ async function main() {
     });
   }
 
-  // 5. Banners
-  await prisma.banner.upsert({
-    where: { id: 'banner-001' },
-    update: {},
-    create: {
+  // 5. Banners (5 Admin-Controlled Banners)
+  const defaultBanners = [
+    {
       id: 'banner-001',
-      title: 'Void X Free Fire Season 1 Championship',
+      title: 'Free Fire Daily Cups',
+      subtitle: 'Automated custom rooms, instant slot locking, and verified payouts.',
+      badge: 'SEASON 1 REGISTRATION',
+      ctaText: 'Enter Arena',
       imageUrl: '/assets/images/freefire/esports.jpg',
-      linkUrl: '/arena/matches',
+      linkUrl: '/arena',
       displayOrder: 1,
       isActive: true,
     },
-  });
+    {
+      id: 'banner-002',
+      title: 'Weekend Clash Squad 4v4 Tournament',
+      subtitle: 'Fast-paced elimination rounds with instant prize pool distribution.',
+      badge: 'HIGH STAKES LOBBY',
+      ctaText: 'View Matches',
+      imageUrl: '/assets/images/freefire/clash-squad.jpg',
+      linkUrl: '/arena',
+      displayOrder: 2,
+      isActive: true,
+    },
+    {
+      id: 'banner-003',
+      title: 'Battle Royale Bermuda Showdown',
+      subtitle: '50-contender survival arena. Secure high placement & per-kill rewards.',
+      badge: 'SOLO & SQUAD',
+      ctaText: 'Join Tournament',
+      imageUrl: '/assets/images/freefire/battle-royale.jpg',
+      linkUrl: '/arena',
+      displayOrder: 3,
+      isActive: true,
+    },
+    {
+      id: 'banner-004',
+      title: 'Verified Automated Wallet Payouts',
+      subtitle: 'Transparent skill rewards deposited directly to your wallet balance after match settlement.',
+      badge: 'VERIFIED LEDGER',
+      ctaText: 'Check Wallet',
+      imageUrl: '/assets/images/arena/hero-arena-banner.jpg',
+      linkUrl: '/arena/wallet',
+      displayOrder: 4,
+      isActive: true,
+    },
+    {
+      id: 'banner-005',
+      title: 'Live Tournament Results & Leaderboards',
+      subtitle: 'Real-time match scoring, kill logs, and official standings.',
+      badge: 'LEADERBOARD LIVE',
+      ctaText: 'View Standings',
+      imageUrl: '/assets/images/gaming-retro-bg.jpg',
+      linkUrl: '/arena/results',
+      displayOrder: 5,
+      isActive: true,
+    },
+  ];
+
+  for (const b of defaultBanners) {
+    await prisma.banner.upsert({
+      where: { id: b.id },
+      update: {
+        title: b.title,
+        subtitle: b.subtitle,
+        badge: b.badge,
+        ctaText: b.ctaText,
+        imageUrl: b.imageUrl,
+        linkUrl: b.linkUrl,
+        displayOrder: b.displayOrder,
+        isActive: b.isActive,
+      },
+      create: b,
+    });
+  }
 
   console.log('PostgreSQL database seeded successfully!');
 }

@@ -49,6 +49,9 @@ export class AdminSettingService {
    */
   static async createBanner(data: {
     title: string;
+    subtitle?: string;
+    badge?: string;
+    ctaText?: string;
     imageUrl: string;
     linkUrl?: string;
     displayOrder?: number;
@@ -58,6 +61,9 @@ export class AdminSettingService {
     const banner = await prisma.banner.create({
       data: {
         title: data.title,
+        subtitle: data.subtitle || null,
+        badge: data.badge || null,
+        ctaText: data.ctaText || null,
         imageUrl: data.imageUrl,
         linkUrl: data.linkUrl || null,
         displayOrder: data.displayOrder ?? 0,
