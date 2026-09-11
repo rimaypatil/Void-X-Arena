@@ -68,6 +68,15 @@ export default function ArenaMatchesPage() {
     <div className="space-y-4">
       {/* Featured Arena Banner */}
       <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-purple-brand/25 via-void-850 to-void-900 border border-purple-brand/40 p-4 shadow-purple-sm">
+        <Image
+          src="/assets/images/freefire/esports.jpg"
+          alt="Free Fire Season 1 Championship"
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, 450px"
+          className="object-cover object-center filter brightness-[0.35] contrast-[1.1]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-void-950 via-void-900/70 to-transparent" />
         <div className="relative z-10">
           <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-void-900/80 border border-purple-brand/50 text-[9px] font-display font-black text-purple-bright mb-1.5">
             <Flame className="w-3 h-3 text-purple-bright" />
@@ -157,23 +166,35 @@ export default function ArenaMatchesPage() {
         <div className="space-y-3">
           {filteredMatches.map((match) => {
             const fillPct = Math.round((match.filledSlots / match.totalSlots) * 100);
+            const cardImage = match.bannerImage || match.game?.image || '/assets/images/freefire/battle-royale.jpg';
 
             return (
               <div
                 key={match.id}
                 className="group rounded-xl overflow-hidden bg-void-850 border border-void-700 hover:border-purple-brand/70 transition-all duration-200 shadow-card-dark flex flex-col"
               >
-                {/* Match Header with Map & Tag */}
-                <div className="p-3 pb-2 flex items-center justify-between border-b border-void-800">
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-status-success inline-block animate-pulse" />
-                    <span className="text-[10px] font-display font-extrabold uppercase text-purple-bright">
-                      {match.gameMode.replace(/_/g, ' ')}
+                {/* Match Header with Artwork & Overlay Badges */}
+                <div className="relative w-full aspect-[16/7] overflow-hidden bg-void-900">
+                  <Image
+                    src={cardImage}
+                    alt={match.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 450px"
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-void-850 via-void-850/40 to-void-950/60" />
+
+                  <div className="absolute inset-x-0 top-0 p-2.5 flex items-center justify-between z-10">
+                    <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-void-900/85 backdrop-blur-md border border-purple-brand/50">
+                      <span className="w-1.5 h-1.5 rounded-full bg-status-success inline-block animate-pulse" />
+                      <span className="text-[9px] font-display font-extrabold uppercase text-purple-bright">
+                        {match.gameMode.replace(/_/g, ' ')}
+                      </span>
+                    </div>
+                    <span className="text-[9px] font-display font-bold uppercase text-void-200 bg-void-900/85 backdrop-blur-md px-1.5 py-0.5 rounded border border-void-700">
+                      {match.map}
                     </span>
                   </div>
-                  <span className="text-[9px] font-display font-bold uppercase text-void-300 bg-void-750 px-1.5 py-0.5 rounded border border-void-700">
-                    {match.map}
-                  </span>
                 </div>
 
                 {/* Body Content */}

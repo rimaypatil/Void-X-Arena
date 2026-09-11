@@ -33,6 +33,8 @@ export interface Tournament {
   startTimeFormatted: string;
   status: TournamentStatus;
   isFeatured?: boolean;
+  bannerImage?: string;
+  image?: string;
   version: 'Mobile Only' | 'Open (No Emulators)' | 'All Devices';
   rules: string[];
   prizeBreakdown: PrizeBreakdown[];

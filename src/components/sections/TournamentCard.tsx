@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Tournament } from '@/types/tournament';
 import { StatusBadge } from '@/components/ui/Badge';
@@ -15,25 +16,47 @@ export interface TournamentCardProps {
 export const TournamentCard: React.FC<TournamentCardProps> = ({ tournament, onSelect }) => {
   const fillPercentage = Math.round((tournament.filledSlots / tournament.totalSlots) * 100);
 
+  const cardImage =
+    tournament.bannerImage ||
+    tournament.image ||
+    (tournament.gameMode.includes('CLASH_SQUAD')
+      ? '/assets/images/freefire/clash-squad.jpg'
+      : tournament.gameMode.includes('DUEL') || tournament.gameMode.includes('CUP')
+      ? '/assets/images/freefire/esports.jpg'
+      : '/assets/images/freefire/battle-royale.jpg');
+
   return (
     <motion.div
       whileHover={{ y: -3 }}
       transition={{ duration: 0.18 }}
-      className="group relative flex flex-col bg-void-800 border border-void-600 hover:border-purple-brand rounded-lg p-3.5 sm:p-5 shadow-card-dark transition-all duration-200"
+      className="group relative flex flex-col bg-void-800 border border-void-600 hover:border-purple-brand rounded-lg overflow-hidden shadow-card-dark transition-all duration-200"
     >
       {/* Top Accent Line on Hover */}
-      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-purple-brand to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-purple-brand to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20" />
 
-      {/* Card Header: Status & Map */}
-      <div className="flex items-center justify-between gap-2 mb-2 sm:mb-3">
-        <StatusBadge status={tournament.status} />
-        <span className="text-[10px] sm:text-xs font-display font-bold uppercase tracking-wider text-void-300 bg-void-700 px-1.5 py-0.5 rounded border border-void-600 truncate max-w-[130px]">
-          {tournament.map}
-        </span>
+      {/* Card Artwork Header */}
+      <div className="relative w-full aspect-[16/7] overflow-hidden bg-void-900">
+        <Image
+          src={cardImage}
+          alt={tournament.title}
+          fill
+          sizes="(max-width: 768px) 100vw, 33vw"
+          className="object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-void-800 via-void-800/40 to-void-950/60" />
+
+        {/* Top Overlay: Status & Map */}
+        <div className="absolute inset-x-0 top-0 p-3 flex items-center justify-between z-10">
+          <StatusBadge status={tournament.status} />
+          <span className="text-[10px] sm:text-xs font-display font-bold uppercase tracking-wider text-void-100 bg-void-900/85 backdrop-blur-md px-2 py-0.5 rounded border border-void-600 truncate max-w-[130px]">
+            {tournament.map}
+          </span>
+        </div>
       </div>
 
-      {/* Title & Mode */}
-      <div className="mb-2.5 sm:mb-3.5">
+      <div className="p-3.5 sm:p-5 flex-1 flex flex-col">
+        {/* Title & Mode */}
+        <div className="mb-2.5 sm:mb-3.5">
         <span className="text-[10px] sm:text-[11px] font-display font-bold text-purple-bright uppercase tracking-wider">
           {tournament.gameModeLabel}
         </span>
@@ -129,6 +152,7 @@ export const TournamentCard: React.FC<TournamentCardProps> = ({ tournament, onSe
         >
           Join Match
         </Button>
+      </div>
       </div>
     </motion.div>
   );

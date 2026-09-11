@@ -19,6 +19,7 @@ export const mockTournaments: Tournament[] = [
     startTimeFormatted: 'Today at 07:30 PM IST',
     status: 'FILLING_FAST',
     isFeatured: true,
+    bannerImage: '/assets/images/freefire/battle-royale.jpg',
     version: 'Mobile Only',
     rules: [
       'Mobile devices only. Strictly NO emulators (instant disqualification without refund).',
@@ -51,6 +52,7 @@ export const mockTournaments: Tournament[] = [
     startTimeFormatted: 'Today at 08:00 PM IST',
     status: 'FILLING_FAST',
     isFeatured: true,
+    bannerImage: '/assets/images/freefire/clash-squad.jpg',
     version: 'Mobile Only',
     rules: [
       'Custom CS 4v4 Rules: Default Gun Attributes OFF, Character Skills Allowed.',
@@ -82,6 +84,7 @@ export const mockTournaments: Tournament[] = [
     startTimeFormatted: 'Today at 09:00 PM IST',
     status: 'UPCOMING',
     isFeatured: false,
+    bannerImage: '/assets/images/freefire/battle-royale.jpg',
     version: 'Mobile Only',
     rules: [
       'Solo lobby only. No teaming up (automated proximity & damage log checks enabled).',
@@ -113,6 +116,7 @@ export const mockTournaments: Tournament[] = [
     startTimeFormatted: 'Today at 06:45 PM IST',
     status: 'LIVE',
     isFeatured: false,
+    bannerImage: '/assets/images/freefire/esports.jpg',
     version: 'Mobile Only',
     rules: [
       'Head-to-head 1v1 in Custom Match Room.',
@@ -143,6 +147,7 @@ export const mockTournaments: Tournament[] = [
     startTimeFormatted: 'Today at 10:30 PM IST',
     status: 'UPCOMING',
     isFeatured: true,
+    bannerImage: '/assets/images/freefire/battle-royale.jpg',
     version: 'Mobile Only',
     rules: [
       'Squad format on Kalahari map.',
@@ -175,6 +180,7 @@ export const mockTournaments: Tournament[] = [
     startTimeFormatted: 'Sunday at 06:30 PM IST',
     status: 'FILLING_FAST',
     isFeatured: true,
+    bannerImage: '/assets/images/freefire/esports.jpg',
     version: 'Mobile Only',
     rules: [
       'Two-match aggregate point series (Bermuda + Purgatory).',
