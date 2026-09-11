@@ -6,8 +6,12 @@ export default function NotFound() {
   return (
     <div className="min-h-screen bg-void-950 flex items-center justify-center p-6 text-center">
       <div className="max-w-md bg-void-800 border border-void-600 rounded-xl p-8 shadow-2xl">
-        <div className="w-16 h-16 rounded-xl bg-purple-brand/20 border border-purple-brand/40 flex items-center justify-center text-purple-bright mx-auto mb-6">
-          <Swords className="w-8 h-8" />
+        <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+          <img
+            src="/assets/images/logo/logo-full.png"
+            alt="Void X Arena Official Logo"
+            className="max-h-24 w-auto object-contain filter drop-shadow-[0_0_16px_rgba(124,58,237,0.5)]"
+          />
         </div>
         <h1 className="font-display font-black text-3xl sm:text-4xl text-void-100 uppercase tracking-wide">
           404 - Out Of Bounds

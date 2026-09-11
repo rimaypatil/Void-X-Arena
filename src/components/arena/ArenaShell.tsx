@@ -29,9 +29,11 @@ export const ArenaShell: React.FC<ArenaShellProps> = ({ children }) => {
         {/* Top App Header (Fixed safe-area top) */}
         <header className="sticky top-0 z-40 bg-void-900/95 backdrop-blur-md border-b border-void-700/80 px-4 pt-safe pb-2.5 flex items-center justify-between">
           <Link href="/arena" className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-gradient-to-br from-purple-brand to-purple-hover flex items-center justify-center text-[10px] font-black font-display text-white shadow-purple-sm">
-              VX
-            </div>
+            <img
+              src="/assets/images/logo/logo-mark.png"
+              alt="Void X Arena Emblem"
+              className="h-7 w-auto object-contain shrink-0"
+            />
             <div className="flex flex-col">
               <span className="font-display font-black text-xs tracking-wider text-void-100 leading-none">
                 VOID <span className="text-purple-brand">X</span> ARENA

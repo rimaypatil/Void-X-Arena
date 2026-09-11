@@ -40,6 +40,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'VOID X ARENA' }],
   creator: 'VOID X ARENA',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/icon.png',
+  },
   metadataBase: new URL(siteConfig.url),
   openGraph: {
     type: 'website',

@@ -55,9 +55,11 @@ export const AdminSidebar: React.FC<{ isOpen: boolean; onClose: () => void }> = 
         {/* Brand Header */}
         <div className="h-16 px-4 flex items-center justify-between border-b border-void-700/80">
           <Link href="/admin" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-brand to-purple-deep flex items-center justify-center font-display font-black text-sm text-white shadow-purple-sm">
-              VX
-            </div>
+            <img
+              src="/assets/images/logo/logo-mark.png"
+              alt="Void X Arena Emblem"
+              className="h-8 w-auto object-contain shrink-0"
+            />
             <div>
               <div className="flex items-center gap-1">
                 <span className="font-display font-black text-sm text-void-100 tracking-wider">

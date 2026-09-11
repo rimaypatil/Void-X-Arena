@@ -84,9 +84,11 @@ export const AppShowcase: React.FC = () => {
                 {/* App Status Header */}
                 <div className="flex items-center justify-between pb-2 border-b border-void-800">
                   <div className="flex items-center gap-1.5">
-                    <div className="w-5 h-5 rounded bg-purple-brand flex items-center justify-center text-[9px] font-black font-display text-white">
-                      VX
-                    </div>
+                    <img
+                      src="/assets/images/logo/logo-mark.png"
+                      alt="Void X Arena"
+                      className="h-5 w-auto object-contain shrink-0"
+                    />
                     <span className="font-display font-black text-[11px] tracking-wider">
                       VOID <span className="text-purple-brand">X</span>
                     </span>

@@ -31,7 +31,11 @@ export const AdminHeader: React.FC<{ onMenuClick: () => void }> = ({ onMenuClick
 
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-2 px-2.5 py-1 rounded-lg bg-void-800 border border-void-700">
-          <ShieldCheck className="w-4 h-4 text-purple-bright" />
+          <img
+            src="/assets/images/logo/logo-mark.png"
+            alt="Void X Arena"
+            className="h-4 w-auto object-contain shrink-0"
+          />
           <span className="text-xs font-display font-bold text-void-200">
             {user?.username}
           </span>

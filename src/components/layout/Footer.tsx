@@ -11,9 +11,11 @@ export const Footer: React.FC = () => {
           {/* Brand Column */}
           <div className="col-span-2 lg:col-span-2 flex flex-col gap-3">
             <div className="flex items-center gap-2">
-              <div className="w-7 h-7 flex items-center justify-center bg-void-800 border border-purple-brand/60 rounded-md shrink-0">
-                <span className="font-display font-black text-purple-bright text-xs">VX</span>
-              </div>
+              <img
+                src="/assets/images/logo/logo-mark.png"
+                alt="Void X Arena Logo"
+                className="h-7 w-auto object-contain shrink-0"
+              />
               <span className="font-display font-black text-base sm:text-lg tracking-wider text-void-100">
                 VOID <span className="text-purple-brand">X</span> ARENA
               </span>

@@ -45,8 +45,12 @@ export default function RegisterPage() {
   return (
     <div className="flex-1 flex flex-col justify-center py-4 px-1">
       <div className="text-center mb-5">
-        <div className="w-12 h-12 mx-auto rounded-2xl bg-gradient-to-br from-purple-brand to-purple-deep flex items-center justify-center text-white shadow-purple-md mb-2.5">
-          <Swords className="w-6 h-6" />
+        <div className="w-20 h-20 mx-auto mb-2.5 flex items-center justify-center">
+          <img
+            src="/assets/images/logo/logo-full.png"
+            alt="Void X Arena Official Logo"
+            className="max-h-20 w-auto object-contain filter drop-shadow-[0_0_12px_rgba(124,58,237,0.5)]"
+          />
         </div>
         <h2 className="font-display font-black text-xl text-void-100 uppercase tracking-tight">
           Create Contender Account

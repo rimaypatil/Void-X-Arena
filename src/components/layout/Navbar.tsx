@@ -48,13 +48,12 @@ export const Navbar: React.FC = () => {
         <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 flex items-center justify-between">
           {/* Brand Logo & Wordmark */}
           <a href="#hero" className="flex items-center gap-2 sm:gap-2.5 group">
-            {/* Compact Geometric Badge Logo */}
-            <div className="relative w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center bg-void-800 border border-purple-brand/60 rounded-md overflow-hidden shadow-purple-sm group-hover:border-purple-bright transition-colors shrink-0">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-brand/30 via-transparent to-purple-deep/20" />
-              <span className="relative font-display font-black text-xs sm:text-sm text-purple-bright tracking-tighter">
-                VX
-              </span>
-            </div>
+            {/* Official Void X Arena Logo Emblem */}
+            <img
+              src="/assets/images/logo/logo-mark.png"
+              alt="Void X Arena Emblem"
+              className="h-8 sm:h-9 w-auto object-contain shrink-0 group-hover:scale-105 transition-transform"
+            />
             
             <div className="flex flex-col">
               <div className="flex items-center gap-1 sm:gap-1.5">
