@@ -3,9 +3,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 
-const HARD_SAFETY_TIMEOUT_MS = 5500; // Guaranteed exit timer
-const ANIMATION_DURATION_MS = 4500; // Normal visual transition duration before fade-out
-const FADE_OUT_DURATION_MS = 500; // Fade-out duration into app (4.5s + 0.5s = 5.0s total)
+const HARD_SAFETY_TIMEOUT_MS = 1500; // Hard safety exit bound
+const ANIMATION_DURATION_MS = 1000; // Normal visual entrance duration
+const FADE_OUT_DURATION_MS = 300; // Fade-out transition duration (1.0s + 0.3s = 1.3s sequence)
 
 export const StartupSplash: React.FC = () => {
   const [isVisible, setIsVisible] = useState<boolean>(true);
@@ -17,7 +17,7 @@ export const StartupSplash: React.FC = () => {
   const dismissTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    // 1. Session check to prevent repeating splash on internal route navigation
+    // 1. Session check: Run only once on initial cold app start
     try {
       if (typeof window !== 'undefined' && window.sessionStorage) {
         const hasPlayed = sessionStorage.getItem('vxa_splash_shown');
@@ -28,18 +28,39 @@ export const StartupSplash: React.FC = () => {
         sessionStorage.setItem('vxa_splash_shown', 'true');
       }
     } catch {
-      // Fallback if sessionStorage is disabled/blocked
+      // Fallback if sessionStorage is unavailable
     }
 
-    // 2. Reduced motion preference check
+    // 2. Check prefers-reduced-motion
     if (typeof window !== 'undefined') {
       const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
       if (mediaQuery.matches) {
         setPrefersReducedMotion(true);
+        setIsVisible(false);
+        return;
       }
     }
 
-    // 3. Dismissal sequence trigger
+    // 3. Double requestAnimationFrame: Hide native Android splash ONLY AFTER web frame is painted
+    let raf1: number | null = null;
+    let raf2: number | null = null;
+
+    if (typeof window !== 'undefined') {
+      raf1 = requestAnimationFrame(() => {
+        raf2 = requestAnimationFrame(() => {
+          try {
+            const splashPlugin = (window as any)?.Capacitor?.Plugins?.SplashScreen;
+            if (splashPlugin && typeof splashPlugin.hide === 'function') {
+              splashPlugin.hide();
+            }
+          } catch {
+            // Silently ignore if not in Capacitor native wrapper
+          }
+        });
+      });
+    }
+
+    // 4. Trigger dismissal sequence after 1000ms
     const triggerDismissal = () => {
       setIsFadingOut(true);
       dismissTimerRef.current = setTimeout(() => {
@@ -47,18 +68,19 @@ export const StartupSplash: React.FC = () => {
       }, FADE_OUT_DURATION_MS);
     };
 
-    // 4. Normal animation lifecycle
     transitionTimerRef.current = setTimeout(() => {
       triggerDismissal();
     }, ANIMATION_DURATION_MS);
 
-    // 5. HARD SAFETY TIMEOUT: Force exit no matter what happens
+    // 5. HARD SAFETY TIMEOUT: Ensure complete unmount at 1500ms max
     safetyTimerRef.current = setTimeout(() => {
       setIsVisible(false);
     }, HARD_SAFETY_TIMEOUT_MS);
 
-    // Cleanup timers on unmount
+    // Cleanup timers & animation frames on unmount
     return () => {
+      if (raf1 !== null) cancelAnimationFrame(raf1);
+      if (raf2 !== null) cancelAnimationFrame(raf2);
       if (safetyTimerRef.current) clearTimeout(safetyTimerRef.current);
       if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
       if (dismissTimerRef.current) clearTimeout(dismissTimerRef.current);
@@ -72,12 +94,12 @@ export const StartupSplash: React.FC = () => {
       role="presentation"
       aria-hidden="true"
       className={`fixed inset-0 z-[99999] bg-[#08080D] flex flex-col items-center justify-center select-none overflow-hidden ${
-        isFadingOut ? 'opacity-0 transition-opacity duration-500 ease-out pointer-events-none' : 'opacity-100 pointer-events-auto'
+        isFadingOut ? 'opacity-0 transition-opacity duration-300 ease-out pointer-events-none' : 'opacity-100 pointer-events-auto'
       }`}
     >
       {/* Background Ambient Glow */}
       <div
-        className={`absolute w-[280px] sm:w-[380px] h-[280px] sm:h-[380px] rounded-full bg-purple-brand/20 blur-[90px] sm:blur-[120px] pointer-events-none transition-all duration-1000 ${
+        className={`absolute w-[280px] sm:w-[380px] h-[280px] sm:h-[380px] rounded-full bg-purple-brand/20 blur-[90px] sm:blur-[120px] pointer-events-none transition-all duration-700 ${
           prefersReducedMotion ? 'opacity-30' : 'animate-pulse'
         }`}
       />
@@ -102,13 +124,13 @@ export const StartupSplash: React.FC = () => {
               className={`object-contain filter drop-shadow-[0_0_20px_rgba(139,92,246,0.55)] ${
                 prefersReducedMotion
                   ? 'opacity-100'
-                  : 'transition-all duration-700 ease-out scale-100'
+                  : 'transition-all duration-500 ease-out scale-100'
               }`}
             />
           </div>
         </div>
 
-        {/* Wordmark & Tagline Reveal */}
+        {/* Wordmark & Subtitle Reveal */}
         <div className="flex flex-col items-center gap-1">
           <h1 className="font-display font-black text-xl sm:text-2xl tracking-widest text-void-100 uppercase">
             VOID <span className="text-purple-brand drop-shadow-[0_0_8px_rgba(139,92,246,0.8)]">X</span> ARENA
@@ -117,15 +139,6 @@ export const StartupSplash: React.FC = () => {
             Esports Tournament Platform
           </p>
         </div>
-      </div>
-
-      {/* Bottom Loading Progress Line */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-32 h-0.5 bg-void-800 rounded-full overflow-hidden">
-        <div
-          className={`h-full bg-gradient-to-r from-purple-brand to-purple-bright rounded-full transition-all duration-1000 ${
-            prefersReducedMotion ? 'w-full' : 'w-full animate-pulse'
-          }`}
-        />
       </div>
     </div>
   );
