@@ -3,12 +3,15 @@ export interface CapacitorConfig {
   appName: string;
   webDir: string;
   server?: {
+    url?: string;
     androidScheme?: string;
     cleartext?: boolean;
     allowNavigation?: string[];
   };
   plugins?: Record<string, any>;
 }
+
+const isLiveReload = process.env.CAPACITOR_LIVE_RELOAD === 'true';
 
 const config: CapacitorConfig = {
   appId: 'com.voidxarena.app',
@@ -17,6 +20,12 @@ const config: CapacitorConfig = {
   server: {
     androidScheme: 'https',
     cleartext: false,
+    ...(isLiveReload
+      ? {
+          url: process.env.CAPACITOR_SERVER_URL || 'http://10.0.2.2:3000',
+          cleartext: true,
+        }
+      : {}),
     allowNavigation: [
       'api.cashfree.com',
       'sandbox.cashfree.com',
