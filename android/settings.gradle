@@ -1,2 +1,5 @@
 include ':app'
 rootProject.name = 'void-x-arena'
+
+apply from: 'capacitor.settings.gradle'
+
