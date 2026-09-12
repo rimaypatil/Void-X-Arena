@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { WifiOff, AlertCircle, CheckCircle2, Loader2, ArrowLeft } from 'lucide-react';
+import { StartupSplash } from '@/components/ui/StartupSplash';
 
 export function MobileAppShell({ children }: { children?: React.ReactNode }) {
   const router = useRouter();
@@ -137,6 +138,7 @@ export function MobileAppShell({ children }: { children?: React.ReactNode }) {
 
   return (
     <>
+      <StartupSplash />
       {/* Offline Reconnection Banner */}
       {isOffline && (
         <div
