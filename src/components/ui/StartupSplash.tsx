@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
+import { SplashScreen } from '@capacitor/splash-screen';
 
 const HARD_SAFETY_TIMEOUT_MS = 1500; // Hard safety exit bound
 const ANIMATION_DURATION_MS = 1000; // Normal visual entrance duration
@@ -22,11 +23,7 @@ export const StartupSplash: React.FC = () => {
 
     // 0. Authoritative Native Capacitor Platform Check: NEVER run on web browsers
     const cap = (window as any)?.Capacitor;
-    const isNativeApp = Boolean(
-      cap?.isNativePlatform?.() ||
-      cap?.getPlatform?.() === 'android' ||
-      cap?.getPlatform?.() === 'ios'
-    );
+    const isNativeApp = Boolean(cap?.isNativePlatform?.());
 
     if (!isNativeApp) {
       // Web browser (desktop, mobile web, or responsive viewport): Return immediately
@@ -66,10 +63,7 @@ export const StartupSplash: React.FC = () => {
     raf1 = requestAnimationFrame(() => {
       raf2 = requestAnimationFrame(() => {
         try {
-          const splashPlugin = cap?.Plugins?.SplashScreen;
-          if (splashPlugin && typeof splashPlugin.hide === 'function') {
-            splashPlugin.hide();
-          }
+          SplashScreen.hide().catch(() => {});
         } catch {
           // Silently ignore if plugin call fails
         }
