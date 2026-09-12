@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { Flame, ExternalLink } from 'lucide-react';
+import { Flame } from 'lucide-react';
 
 export interface BannerItem {
   id: string;
@@ -362,12 +362,6 @@ export const HeroCarousel: React.FC<{ initialBanners?: BannerItem[] }> = ({ init
                       {b.subtitle}
                     </p>
                   )}
-
-                  {/* CTA Link Hint */}
-                  <div className="mt-2.5 inline-flex items-center gap-1 text-[10px] font-display font-bold uppercase tracking-wider text-purple-bright hover:text-white transition-colors">
-                    <span>{b.ctaText || 'Explore Match'}</span>
-                    <ExternalLink className="w-3 h-3 shrink-0" />
-                  </div>
                 </div>
               </div>
             );
