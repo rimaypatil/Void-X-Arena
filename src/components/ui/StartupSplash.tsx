@@ -3,9 +3,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 
-const HARD_SAFETY_TIMEOUT_MS = 2500; // Guaranteed exit timer
-const ANIMATION_DURATION_MS = 1600; // Normal visual transition duration
-const FADE_OUT_DURATION_MS = 350; // Fade-out duration into app
+const HARD_SAFETY_TIMEOUT_MS = 5500; // Guaranteed exit timer
+const ANIMATION_DURATION_MS = 4500; // Normal visual transition duration before fade-out
+const FADE_OUT_DURATION_MS = 500; // Fade-out duration into app (4.5s + 0.5s = 5.0s total)
 
 export const StartupSplash: React.FC = () => {
   const [isVisible, setIsVisible] = useState<boolean>(true);
@@ -72,7 +72,7 @@ export const StartupSplash: React.FC = () => {
       role="presentation"
       aria-hidden="true"
       className={`fixed inset-0 z-[99999] bg-[#08080D] flex flex-col items-center justify-center select-none overflow-hidden ${
-        isFadingOut ? 'opacity-0 transition-opacity duration-350 ease-out pointer-events-none' : 'opacity-100 pointer-events-auto'
+        isFadingOut ? 'opacity-0 transition-opacity duration-500 ease-out pointer-events-none' : 'opacity-100 pointer-events-auto'
       }`}
     >
       {/* Background Ambient Glow */}
