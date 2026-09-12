@@ -8,7 +8,8 @@ const ANIMATION_DURATION_MS = 1000; // Normal visual entrance duration
 const FADE_OUT_DURATION_MS = 300; // Fade-out transition duration (1.0s + 0.3s = 1.3s sequence)
 
 export const StartupSplash: React.FC = () => {
-  const [isVisible, setIsVisible] = useState<boolean>(true);
+  // Start false so SSR & web browser hydration render nothing
+  const [isVisible, setIsVisible] = useState<boolean>(false);
   const [isFadingOut, setIsFadingOut] = useState<boolean>(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(false);
 
@@ -17,9 +18,25 @@ export const StartupSplash: React.FC = () => {
   const dismissTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    // 1. Session check: Run only once on initial cold app start
+    if (typeof window === 'undefined') return;
+
+    // 0. Authoritative Native Capacitor Platform Check: NEVER run on web browsers
+    const cap = (window as any)?.Capacitor;
+    const isNativeApp = Boolean(
+      cap?.isNativePlatform?.() ||
+      cap?.getPlatform?.() === 'android' ||
+      cap?.getPlatform?.() === 'ios'
+    );
+
+    if (!isNativeApp) {
+      // Web browser (desktop, mobile web, or responsive viewport): Return immediately
+      setIsVisible(false);
+      return;
+    }
+
+    // 1. Session check: Run only once on initial cold app start inside native APK
     try {
-      if (typeof window !== 'undefined' && window.sessionStorage) {
+      if (window.sessionStorage) {
         const hasPlayed = sessionStorage.getItem('vxa_splash_shown');
         if (hasPlayed) {
           setIsVisible(false);
@@ -32,33 +49,32 @@ export const StartupSplash: React.FC = () => {
     }
 
     // 2. Check prefers-reduced-motion
-    if (typeof window !== 'undefined') {
-      const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-      if (mediaQuery.matches) {
-        setPrefersReducedMotion(true);
-        setIsVisible(false);
-        return;
-      }
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (mediaQuery.matches) {
+      setPrefersReducedMotion(true);
+      setIsVisible(false);
+      return;
     }
+
+    // Native app confirmed: Enable splash visibility
+    setIsVisible(true);
 
     // 3. Double requestAnimationFrame: Hide native Android splash ONLY AFTER web frame is painted
     let raf1: number | null = null;
     let raf2: number | null = null;
 
-    if (typeof window !== 'undefined') {
-      raf1 = requestAnimationFrame(() => {
-        raf2 = requestAnimationFrame(() => {
-          try {
-            const splashPlugin = (window as any)?.Capacitor?.Plugins?.SplashScreen;
-            if (splashPlugin && typeof splashPlugin.hide === 'function') {
-              splashPlugin.hide();
-            }
-          } catch {
-            // Silently ignore if not in Capacitor native wrapper
+    raf1 = requestAnimationFrame(() => {
+      raf2 = requestAnimationFrame(() => {
+        try {
+          const splashPlugin = cap?.Plugins?.SplashScreen;
+          if (splashPlugin && typeof splashPlugin.hide === 'function') {
+            splashPlugin.hide();
           }
-        });
+        } catch {
+          // Silently ignore if plugin call fails
+        }
       });
-    }
+    });
 
     // 4. Trigger dismissal sequence after 1000ms
     const triggerDismissal = () => {
