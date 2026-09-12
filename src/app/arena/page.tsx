@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Flame, Swords, Trophy, Users, Clock, AlertCircle, RefreshCw, ChevronRight } from 'lucide-react';
+import { Flame, Swords, Trophy, Users, Clock, AlertCircle, RefreshCw, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { HeroCarousel } from '@/components/arena/HeroCarousel';
 
@@ -29,9 +29,13 @@ interface MatchItem {
   };
 }
 
+type StatusFilterType = 'ONGOING' | 'UPCOMING' | 'COMPLETED';
+
 export default function ArenaMatchesPage() {
   const [matches, setMatches] = useState<MatchItem[]>([]);
-  const [filter, setFilter] = useState<string>('ALL');
+  const [gameFilter, setGameFilter] = useState<string>('ALL');
+  const [statusFilter, setStatusFilter] = useState<StatusFilterType>('UPCOMING');
+  const [userHasSelectedStatus, setUserHasSelectedStatus] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -42,7 +46,22 @@ export default function ArenaMatchesPage() {
       const res = await fetch('/api/v1/matches');
       const json = await res.json();
       if (json.success && Array.isArray(json.data)) {
-        setMatches(json.data);
+        const fetchedMatches: MatchItem[] = json.data;
+        setMatches(fetchedMatches);
+
+        // Dynamically set default status filter if user hasn't explicitly chosen one:
+        // Prefer ONGOING if active ongoing matches exist, otherwise UPCOMING.
+        if (!userHasSelectedStatus) {
+          const hasOngoing = fetchedMatches.some((m) => m.status === 'ONGOING');
+          const hasUpcoming = fetchedMatches.some((m) => m.status === 'UPCOMING');
+          if (hasOngoing) {
+            setStatusFilter('ONGOING');
+          } else if (hasUpcoming) {
+            setStatusFilter('UPCOMING');
+          } else {
+            setStatusFilter('UPCOMING');
+          }
+        }
       } else {
         setError(json.error?.message || 'Failed to load fixtures.');
       }
@@ -57,11 +76,18 @@ export default function ArenaMatchesPage() {
     fetchMatches();
   }, []);
 
+  // Combined Status + Game Mode Filtering
   const filteredMatches = matches.filter((m) => {
-    if (filter === 'ALL') return true;
-    if (filter === 'BR') return m.gameMode.includes('BATTLE_ROYALE');
-    if (filter === 'CS') return m.gameMode.includes('CLASH_SQUAD');
-    if (filter === 'DUEL') return m.gameMode.includes('DUEL') || m.gameMode.includes('LONE');
+    // 1. Authoritative Status Filter
+    if (statusFilter === 'ONGOING' && m.status !== 'ONGOING') return false;
+    if (statusFilter === 'UPCOMING' && m.status !== 'UPCOMING') return false;
+    if (statusFilter === 'COMPLETED' && m.status !== 'RESULTED') return false;
+
+    // 2. Game Mode Filter
+    if (gameFilter === 'BR' && !m.gameMode.includes('BATTLE_ROYALE')) return false;
+    if (gameFilter === 'CS' && !m.gameMode.includes('CLASH_SQUAD')) return false;
+    if (gameFilter === 'DUEL' && !m.gameMode.includes('DUEL') && !m.gameMode.includes('LONE')) return false;
+
     return true;
   });
 
@@ -70,7 +96,36 @@ export default function ArenaMatchesPage() {
       {/* Featured Admin-Controlled Arena Banner Carousel */}
       <HeroCarousel />
 
-      {/* Filter Tabs */}
+      {/* Lifecycle Status Selector (ONGOING | UPCOMING | COMPLETED) */}
+      <div className="grid grid-cols-3 gap-1 p-1 bg-void-900 rounded-xl border border-void-750 text-xs font-display font-bold">
+        {(
+          [
+            { id: 'ONGOING', label: 'Ongoing' },
+            { id: 'UPCOMING', label: 'Upcoming' },
+            { id: 'COMPLETED', label: 'Completed' },
+          ] as const
+        ).map((tab) => (
+          <button
+            key={tab.id}
+            onClick={() => {
+              setUserHasSelectedStatus(true);
+              setStatusFilter(tab.id);
+            }}
+            className={`py-2 rounded-lg uppercase tracking-wider text-[10px] sm:text-[11px] transition-all flex items-center justify-center gap-1.5 ${
+              statusFilter === tab.id
+                ? 'bg-purple-brand text-white shadow-purple-sm'
+                : 'text-void-400 hover:text-void-200'
+            }`}
+          >
+            {tab.id === 'ONGOING' && (
+              <span className="w-1.5 h-1.5 rounded-full bg-status-success inline-block animate-pulse shrink-0" />
+            )}
+            <span>{tab.label}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Game Mode Category Filter Tabs */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
         {[
           { label: 'All Arenas', id: 'ALL' },
@@ -80,9 +135,9 @@ export default function ArenaMatchesPage() {
         ].map((tab) => (
           <button
             key={tab.id}
-            onClick={() => setFilter(tab.id)}
+            onClick={() => setGameFilter(tab.id)}
             className={`px-3 py-1.5 rounded-lg text-[11px] font-display font-bold uppercase tracking-wider transition-all whitespace-nowrap shrink-0 ${
-              filter === tab.id
+              gameFilter === tab.id
                 ? 'bg-purple-brand text-white shadow-purple-sm'
                 : 'bg-void-800 text-void-300 hover:text-void-100 border border-void-700/80'
             }`}
@@ -127,15 +182,23 @@ export default function ArenaMatchesPage() {
         </div>
       )}
 
-      {/* Empty State */}
+      {/* Context-Aware Empty State */}
       {!loading && !error && filteredMatches.length === 0 && (
         <div className="p-8 rounded-xl bg-void-850 border border-void-700 text-center">
           <Swords className="w-10 h-10 text-void-500 mx-auto mb-2 opacity-50" />
           <h3 className="font-display font-bold text-xs sm:text-sm text-void-200 uppercase">
-            No active fixtures in this format
+            No {statusFilter.toLowerCase()} fixtures
           </h3>
           <p className="text-[11px] text-void-400 mt-1">
-            Check back shortly or view other game modes.
+            There are currently no {statusFilter.toLowerCase()} matches in{' '}
+            {gameFilter === 'ALL'
+              ? 'any game mode'
+              : gameFilter === 'BR'
+              ? 'Battle Royale'
+              : gameFilter === 'CS'
+              ? 'Clash Squad'
+              : '1v1 Duels'}
+            .
           </p>
         </div>
       )}
@@ -146,6 +209,8 @@ export default function ArenaMatchesPage() {
           {filteredMatches.map((match) => {
             const fillPct = Math.round((match.filledSlots / match.totalSlots) * 100);
             const cardImage = match.bannerImage || match.game?.image || '/assets/images/freefire/battle-royale.jpg';
+            const isOngoing = match.status === 'ONGOING';
+            const isCompleted = match.status === 'RESULTED';
 
             return (
               <div
@@ -165,14 +230,34 @@ export default function ArenaMatchesPage() {
 
                   <div className="absolute inset-x-0 top-0 p-2.5 flex items-center justify-between z-10">
                     <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-void-900/85 backdrop-blur-md border border-purple-brand/50">
-                      <span className="w-1.5 h-1.5 rounded-full bg-status-success inline-block animate-pulse" />
+                      <span
+                        className={`w-1.5 h-1.5 rounded-full inline-block ${
+                          isOngoing
+                            ? 'bg-status-warning animate-pulse'
+                            : isCompleted
+                            ? 'bg-status-success'
+                            : 'bg-status-success inline-block animate-pulse'
+                        }`}
+                      />
                       <span className="text-[9px] font-display font-extrabold uppercase text-purple-bright">
                         {match.gameMode.replace(/_/g, ' ')}
                       </span>
                     </div>
-                    <span className="text-[9px] font-display font-bold uppercase text-void-200 bg-void-900/85 backdrop-blur-md px-1.5 py-0.5 rounded border border-void-700">
-                      {match.map}
-                    </span>
+
+                    {/* Authoritative Status Badge */}
+                    <div className="flex items-center gap-1">
+                      <span
+                        className={`text-[9px] font-display font-bold uppercase px-2 py-0.5 rounded border backdrop-blur-md ${
+                          isOngoing
+                            ? 'bg-status-warning/20 text-status-warning border-status-warning/40 animate-pulse'
+                            : isCompleted
+                            ? 'bg-status-success/20 text-status-success border-status-success/40'
+                            : 'bg-void-900/85 text-void-200 border-void-700'
+                        }`}
+                      >
+                        {isCompleted ? 'COMPLETED' : match.status}
+                      </span>
+                    </div>
                   </div>
                 </div>
 
@@ -239,15 +324,24 @@ export default function ArenaMatchesPage() {
                       <span>{match.matchTime}</span>
                     </div>
 
-                    <Link
-                      href={`/arena/matches/${match.id}`}
-                      className="px-3 py-1.5 rounded-md bg-purple-brand hover:bg-purple-hover text-white text-[10px] font-display font-bold uppercase tracking-wider transition-all flex items-center gap-1 shadow-purple-sm"
-                    >
-                      <span>Join Match</span>
-                      <ChevronRight className="w-3 h-3" />
-                    </Link>
+                    {isCompleted ? (
+                      <Link
+                        href={`/arena/results?matchId=${match.id}`}
+                        className="px-3 py-1.5 rounded-md bg-status-success/20 hover:bg-status-success text-status-success hover:text-black text-[10px] font-display font-bold uppercase tracking-wider transition-all flex items-center gap-1 border border-status-success/40"
+                      >
+                        <span>View Results</span>
+                        <ChevronRight className="w-3 h-3" />
+                      </Link>
+                    ) : (
+                      <Link
+                        href={`/arena/matches/${match.id}`}
+                        className="px-3 py-1.5 rounded-md bg-purple-brand hover:bg-purple-hover text-white text-[10px] font-display font-bold uppercase tracking-wider transition-all flex items-center gap-1 shadow-purple-sm"
+                      >
+                        <span>{isOngoing ? 'View Match' : 'Join Match'}</span>
+                        <ChevronRight className="w-3 h-3" />
+                      </Link>
+                    )}
                   </div>
-
                 </div>
               </div>
             );
@@ -257,3 +351,4 @@ export default function ArenaMatchesPage() {
     </div>
   );
 }
+
